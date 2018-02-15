@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-02-15T09:47:14.364Z</updated>
+  <updated>2018-02-15T17:39:50.911Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>数据库的整理</title>
+    <link href="http://yoursite.com/2018/02/15/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E6%95%B4%E7%90%86/"/>
+    <id>http://yoursite.com/2018/02/15/数据库的整理/</id>
+    <published>2018-02-15T14:02:34.000Z</published>
+    <updated>2018-02-15T17:39:50.911Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;SQL语句（sql-server&quot;&gt;&lt;a href=&quot;#SQL语句（sql-server&quot; class=&quot;headerlink&quot; title=&quot;SQL语句（sql server)&quot;&gt;&lt;/a&gt;SQL语句（sql server)&lt;/h1&gt;&lt;h2
+        
+      
+    
+    </summary>
+    
+    
+      <category term="数据库" scheme="http://yoursite.com/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+  </entry>
   
   <entry>
     <title>第一次尝试画图标</title>
