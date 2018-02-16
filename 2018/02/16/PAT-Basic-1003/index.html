@@ -43,7 +43,7 @@
     
     <title>
         
-            PAT_Basic_1062 | 
+            PAT_Basic_1003 | 
         
         小强的博客
     </title>
@@ -215,7 +215,7 @@
     <!-- WebAPP Icons -->
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="application-name" content="小强的博客">
-    <meta name="msapplication-starturl" content="http://yoursite.com/2018/02/15/PAT-Basic-1062/">
+    <meta name="msapplication-starturl" content="http://yoursite.com/2018/02/16/PAT-Basic-1003/">
     <meta name="msapplication-navbutton-color" content="#0097A7">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-title" content="小强的博客">
@@ -234,16 +234,16 @@
     
 
     <!-- The Open Graph protocol -->
-    <meta property="og:url" content="http://yoursite.com/2018/02/15/PAT-Basic-1062/">
+    <meta property="og:url" content="http://yoursite.com/2018/02/16/PAT-Basic-1003/">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="PAT_Basic_1062 | 小强的博客">
+    <meta property="og:title" content="PAT_Basic_1003 | 小强的博客">
     <meta property="og:image" content="/img/facico.png">
     <meta property="og:description" content="">
     
 
     
-        <meta property="article:published_time" content="Thu Feb 15 2018 09:50:41 GMT+0800">
-        <meta property="article:modified_time" content="Thu Feb 15 2018 09:57:57 GMT+0800">
+        <meta property="article:published_time" content="Fri Feb 16 2018 12:36:45 GMT+0800">
+        <meta property="article:modified_time" content="Fri Feb 16 2018 12:43:13 GMT+0800">
     
 
     <!-- The Twitter Card protocol -->
@@ -251,7 +251,7 @@
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="http://yoursite.com/2018/02/15/PAT-Basic-1062/index.html" />
+        <link rel="canonical" href="http://yoursite.com/2018/02/16/PAT-Basic-1003/index.html" />
     
 
     <!-- Structured-data for SEO -->
@@ -263,10 +263,10 @@
 {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
-    "mainEntityOfPage": "http://yoursite.com/2018/02/15/PAT-Basic-1062/index.html",
-    "headline": "PAT_Basic_1062",
-    "datePublished": "Thu Feb 15 2018 09:50:41 GMT+0800",
-    "dateModified": "Thu Feb 15 2018 09:57:57 GMT+0800",
+    "mainEntityOfPage": "http://yoursite.com/2018/02/16/PAT-Basic-1003/index.html",
+    "headline": "PAT_Basic_1003",
+    "datePublished": "Fri Feb 16 2018 12:36:45 GMT+0800",
+    "dateModified": "Fri Feb 16 2018 12:43:13 GMT+0800",
     "author": {
         "@type": "Person",
         "name": "Jack Sun",
@@ -381,7 +381,7 @@
         
     
             <p class="article-headline-p">
-                PAT_Basic_1062
+                PAT_Basic_1003
             </p>
         </div>
 
@@ -400,7 +400,7 @@
     <!-- Author Name & Date -->
     <div>
         <strong>Jack Sun</strong>
-        <span>2月 15, 2018</span>
+        <span>2月 16, 2018</span>
     </div>
 
     <div class="section-spacer"></div>
@@ -432,7 +432,7 @@
 
     <!-- Share Weibo -->
     
-        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=PAT_Basic_1062&url=http://yoursite.com/2018/02/15/PAT-Basic-1062/index.html&pic=http://yoursite.com/img/facico.png&searchPic=false&style=simple" target="_blank">
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=PAT_Basic_1003&url=http://yoursite.com/2018/02/16/PAT-Basic-1003/index.html&pic=http://yoursite.com/img/facico.png&searchPic=false&style=simple" target="_blank">
             <li class="mdl-menu__item">
                 分享到微博
             </li>
@@ -466,81 +466,113 @@
                 <!-- Post Content -->
                 <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
     
-        <p>这是一道大水题，但有需要注意的地方！<br>虽然简单，但通过率只有0.19，来看看有啥坑！</p>
-<p>题目描述：</p>
-<pre><code>最简分数(20)
-一个分数一般写成两个整数相除的形式：N/M，其中M不为0。最简分数是指分子和分母没有公约数的分数表示形式。
+        <p>题目描述</p>
+<pre><code>我要通过！(20)
+“答案正确”是自动判题系统给出的最令人欢喜的回复。本题属于PAT的“答案正确”大派送 —— 只要读入的字符串满足下列条件，系统就输出“答案正确”，否则输出“答案错误”。
 
-现给定两个不相等的正分数 N1/M1 和 N2/M2，要求你按从小到大的顺序列出它们之间分母为K的最简分数。
+得到“答案正确”的条件是：
 
-输入格式：
+1. 字符串中必须仅有P, A, T这三种字符，不可以包含其它字符；
+2. 任意形如 xPATx 的字符串都可以获得“答案正确”，其中 x 或者是空字符串，或者是仅由字母 A 组成的字符串；
+3. 如果 aPbTc 是正确的，那么 aPbATca 也是正确的，其中 a, b, c 均或者是空字符串，或者是仅由字母 A 组成的字符串。
 
-输入在一行中按N/M的格式给出两个正分数，随后是一个正整数分母K，其间以空格分隔。题目保证给出的所有整数都不超过1000。
+现在就请你为PAT写一个自动裁判程序，判定哪些字符串是可以获得“答案正确”的。
+输入格式： 每个测试输入包含1个测试用例。第1行给出一个自然数n (&lt;10)，是需要检测的字符串个数。接下来每个字符串占一行，字符串长度不超过100，且不包含空格。
 
-输出格式：
-
-在一行中按N/M的格式列出两个给定分数之间分母为K的所有最简分数，按从小到大的顺序，其间以1个空格分隔。行首尾不得有多余空格。题目保证至少有1个输出。
+输出格式：每个字符串的检测结果占一行，如果该字符串可以获得“答案正确”，则输出YES，否则输出NO。
 
 输入样例：
-7/18 13/20 12
+8
+PAT
+PAAT
+AAPATAA
+AAPAATAAAA
+xPATx
+PT
+Whatever
+APAAATAA
 输出样例：
-5/12 7/12
-</code></pre><p>首先这是我的解法：</p>
+YES
+YES
+YES
+YES
+NO
+NO
+NO
+NO
+</code></pre><p>我的解法：</p>
 <pre><code>#include &lt;stdio.h&gt;
 #include &lt;string.h&gt;
-#include &lt;math.h&gt;
-#include &lt;stdbool.h&gt;
-#include &lt;stdlib.h&gt;
-bool pd1(int n,int m){
-    int i;
-    for(i=2;i&lt;=n;i++){
-        if(n%i==0&amp;&amp;m%i==0){
-            return false;
+int pdd(char *str){
+    int j,p=0,a=0,t=0;
+    if(strstr(str, &quot;PT&quot;)!=0){
+        return 0;
+    }
+    for(j=0;j&lt;strlen(str);j++){
+        if(!(str[j]==&#39;P&#39;||str[j]==&#39;A&#39;||str[j]==&#39;T&#39;)){
+            return 0;
+        }
+        if(str[j]==&#39;P&#39;&amp;&amp;p==0){
+            p++;
+        }
+        if(str[j]==&#39;A&#39;&amp;&amp;a==0){
+            a++;
+        }
+        if(str[j]==&#39;T&#39;&amp;&amp;t==0&amp;&amp;p!=0){
+            t++;
         }
     }
-    return true;
-}
-bool pd2(double a){
-    int b=a;
-    a-=b;
-    if(a&gt;0){
-        return false;
+    if((a=!p||a!=t||t!=p)){
+        return 0;
     }
     else{
-        return true;
+        return 1;
     }
-}
-void swap(double *a1,double *a2){
-    double temp=*a1;
-    *a1=*a2;
-    *a2=temp;
 }
 int main(){
-    int n1,n2,m1,m2,k,i,flag=0;
-    scanf(&quot;%d/%d %d/%d %d&quot;,&amp;n1,&amp;m1,&amp;n2,&amp;m2,&amp;k);
-    double r1=(double)n1*k/m1,r2=(double)n2*k/m2;
-    if(r1&gt;r2){
-        swap(&amp;r1, &amp;r2);
+    char str[10][101]={&#39;\0&#39;};
+    int n,i,j;
+    scanf(&quot;%d&quot;,&amp;n);
+    for(i=0;i&lt;n;i++){
+        scanf(&quot;%s&quot;,str[i]);
     }
-    int start=r1+1,end;
-    if(pd2(r2)==true){
-        end=r2;
-    }
-    else{
-        end=r2+1;
-    }
-    for(i=start;i&lt;end;i++){
-        if(pd1(i,k)==true&amp;&amp;flag==0){
-            printf(&quot;%d/%d&quot;,i,k);
-            flag=1;
+    for(i=0;i&lt;n;i++){
+        int count1=0,count2=0,count3=0,flag=0,flag2=0;
+        for(j=0;j&lt;strlen(str[i]);j++){
+            if(pdd(str[i])==0&amp;&amp;j==0){
+                printf(&quot;NO\n&quot;);
+                flag2=1;
+                break;
+            }
+            if(str[i][j]==&#39;P&#39;){
+                flag++;
+            }
+            else if(str[i][j]==&#39;T&#39;){
+                flag++;
+            }
+            else{
+            if(flag==0){
+                count1++;
+            }
+            if(flag==1){
+                count2++;
+            }
+            if(flag==2){
+                count3++;
+            }
+            }
+            }
+            if(count1*count2==count3&amp;&amp;flag2==0){
+                printf(&quot;YES\n&quot;);
+            }
+            else if(count1*count2!=count3&amp;&amp;flag2==0){
+                printf(&quot;NO\n&quot;);
+            }
         }
-        else if(pd1(i,k)==true){
-            printf(&quot; %d/%d&quot;,i,k);
-        }
-    }
     return 0;
 }
-</code></pre><p>首先是大小问题，并未说第一个数小于第二个数，所以就要判断一下。<br>再就是右端点的注意，若右端点分子是一个整数，那么不能加1，所以也要判断。</p>
+</code></pre><p>这道题也挺坑的，通过看输入与输出样例归纳得出，P前的A数*P与T之间的A数=T后A的数量。坑啊～ 但我还是写的好麻烦😡</p>
+<p>这还是第一次在PAT上遇到找规律的题。</p>
 
         
     
@@ -561,21 +593,13 @@ int main(){
             <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
     <!-- Prev Nav -->
     
-        <a href="/2018/02/15/第一次尝试画图标/" id="post_nav-newer" class="prev-content">
-            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
-                <i class="material-icons">arrow_back</i>
-            </button>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            新篇
-        </a>
-    
 
     <!-- Section Spacer -->
     <div class="section-spacer"></div>
 
     <!-- Next Nav -->
     
-        <a href="/2018/02/15/一些算法/" id="post_nav-older" class="next-content">
+        <a href="/2018/02/15/数据库的整理/" id="post_nav-older" class="next-content">
             舊篇
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
