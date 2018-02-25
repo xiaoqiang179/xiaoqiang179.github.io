@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-02-25T09:33:26.195Z</updated>
+  <updated>2018-02-25T10:04:50.345Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,60 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>PAT-Basic-1025</title>
+    <link href="http://yoursite.com/2018/02/25/PAT-Basic-1025/"/>
+    <id>http://yoursite.com/2018/02/25/PAT-Basic-1025/</id>
+    <published>2018-02-25T09:46:47.000Z</published>
+    <updated>2018-02-25T10:04:50.345Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;我的代码:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;#include &amp;lt;stdio.h&amp;gt;
+#include &amp;lt;string.h&amp;gt;
+#include &amp;lt;math.h&amp;gt;
+#include &amp;lt;stdbool.h&amp;gt;
+#include
+        
+      
+    
+    </summary>
+    
+    
+      <category term="PAT" scheme="http://yoursite.com/tags/PAT/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PAT-Basic-1005</title>
+    <link href="http://yoursite.com/2018/02/25/PAT-Basic-1005/"/>
+    <id>http://yoursite.com/2018/02/25/PAT-Basic-1005/</id>
+    <published>2018-02-25T09:46:10.000Z</published>
+    <updated>2018-02-25T09:55:50.481Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;首先是代码&quot;&gt;&lt;a href=&quot;#首先是代码&quot; class=&quot;headerlink&quot; title=&quot;首先是代码:&quot;&gt;&lt;/a&gt;首先是代码:&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;#include &amp;lt;stdio.h&amp;gt;
+#include
+        
+      
+    
+    </summary>
+    
+    
+      <category term="PAT" scheme="http://yoursite.com/tags/PAT/"/>
+    
+  </entry>
   
   <entry>
     <title>刷完PAT乙级了! 😜🎉</title>
