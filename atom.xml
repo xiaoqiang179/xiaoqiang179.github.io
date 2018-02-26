@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-02-25T12:40:29.283Z</updated>
+  <updated>2018-02-26T08:40:03.713Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>HDU-1016-Prime-Ring-Problem</title>
+    <link href="http://yoursite.com/2018/02/26/Prime-Ring-Problem/"/>
+    <id>http://yoursite.com/2018/02/26/Prime-Ring-Problem/</id>
+    <published>2018-02-26T08:35:37.000Z</published>
+    <updated>2018-02-26T08:40:03.713Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;我的代码:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;#include &amp;lt;stdio.h&amp;gt;
+#include &amp;lt;string.h&amp;gt;
+#include &amp;lt;math.h&amp;gt;
+#include &amp;lt;stdbool.h&amp;gt;
+#include
+        
+      
+    
+    </summary>
+    
+      <category term="HDU" scheme="http://yoursite.com/categories/HDU/"/>
+    
+    
+      <category term="DFS" scheme="http://yoursite.com/tags/DFS/"/>
+    
+  </entry>
   
   <entry>
     <title>PAT-Basic-1025</title>
