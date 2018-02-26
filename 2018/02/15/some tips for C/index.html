@@ -45,7 +45,7 @@
     
     <title>
         
-            過往: 2018/2 | 
+            C语言注意点 | 
         
         小强的博客
     </title>
@@ -56,7 +56,7 @@
 
     <meta name="format-detection" content="telephone=no"/>
     <meta name="description" itemprop="description" content="">
-    <meta name="keywords" content="">
+    <meta name="keywords" content=",tips">
     <meta name="theme-color" content="#0097A7">
 
     <!-- Disable Fucking Bloody Baidu Tranformation -->
@@ -83,6 +83,9 @@
         <style id="style_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("style_css","/css/style.min.css?MKetZV3cUTfDxvMffaOezg==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
 
         
+            
+                <style id="prettify_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("prettify_css","/css/prettify.min.css?zp8STOU9v89XWFEnN+6YmQ==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+                <style id="prettify_theme"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("prettify_theme","/css/prettify/atelier-cave-dark.min.css?eNm7/H0PUmcn6dp0nNCKRA==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
             
         
 
@@ -214,7 +217,7 @@
     <!-- WebAPP Icons -->
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="application-name" content="小强的博客">
-    <meta name="msapplication-starturl" content="http://yoursite.com/archives/2018/02/page/2/">
+    <meta name="msapplication-starturl" content="http://yoursite.com/2018/02/15/some tips for C/">
     <meta name="msapplication-navbutton-color" content="#0097A7">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-title" content="小强的博客">
@@ -233,13 +236,16 @@
     
 
     <!-- The Open Graph protocol -->
-    <meta property="og:url" content="http://yoursite.com/archives/2018/02/page/2/">
+    <meta property="og:url" content="http://yoursite.com/2018/02/15/some tips for C/">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="過往: 2018/2 | 小强的博客">
+    <meta property="og:title" content="C语言注意点 | 小强的博客">
     <meta property="og:image" content="/img/facico.png">
     <meta property="og:description" content="">
-    
+    <meta property="og:article:tag" content="tips"> 
 
+    
+        <meta property="article:published_time" content="Thu Feb 15 2018 02:13:50 GMT+0800">
+        <meta property="article:modified_time" content="Sun Feb 25 2018 20:41:02 GMT+0800">
     
 
     <!-- The Twitter Card protocol -->
@@ -247,13 +253,43 @@
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="http://yoursite.com/archives/2018/02/page/2/index.html" />
+        <link rel="canonical" href="http://yoursite.com/2018/02/15/some tips for C/index.html" />
     
 
     <!-- Structured-data for SEO -->
     
         
 
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": "http://yoursite.com/2018/02/15/some tips for C/index.html",
+    "headline": "C语言注意点",
+    "datePublished": "Thu Feb 15 2018 02:13:50 GMT+0800",
+    "dateModified": "Sun Feb 25 2018 20:41:02 GMT+0800",
+    "author": {
+        "@type": "Person",
+        "name": "Jack Sun",
+        "image": {
+            "@type": "ImageObject",
+            "url": "/img/Yoshi.png"
+        },
+        "description": "❤这里是记录我学习的地方❤"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "小强的博客",
+        "logo": {
+            "@type":"ImageObject",
+            "url": "/img/facico.png"
+        }
+    },
+    "keywords": ",tips",
+    "description": "",
+}
+</script>
 
 
     
@@ -294,164 +330,265 @@
                         </button>
                     
 
-                    <!-- Index Module -->
-<div class="material-index mdl-grid">
-    
-    <div class="locate-thumbnail-symbol"></div>
+                    <!-- Post TOC -->
 
-    <!-- Pin on top -->
+    
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
+        </a>
+    </div>
+    -->
+
+
+    <!-- Left aligned menu below button -->
+    
+    
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#指针"><span class="post-toc-number">1.</span> <span class="post-toc-text">指针</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#指针数组"><span class="post-toc-number">2.</span> <span class="post-toc-text">指针数组</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#求模"><span class="post-toc-number">3.</span> <span class="post-toc-text">求模</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#一次定义多个指针变量（typedef）"><span class="post-toc-number">4.</span> <span class="post-toc-text">一次定义多个指针变量（typedef）</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#结构体的sizeof"><span class="post-toc-number">5.</span> <span class="post-toc-text">结构体的sizeof</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#先这些吧～"><span class="post-toc-number">6.</span> <span class="post-toc-text">先这些吧～</span></a></li></ol>
+    </ul>
     
 
-    <!-- Normal Post -->
-    
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
+
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+    <!-- Paradox Post Header -->
     
         
             <!-- Random Thumbnail -->
             <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-        
-    
+            <script type="text/ls-javascript" id="post-thumbnail-script">
+    var randomNum = Math.floor(Math.random() * 19 + 1);
 
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2018/02/15/some tips for C/">C语言注意点</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            指针
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2018/02/15/some tips for C/" target="_self">繼續閱讀</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/Yoshi.png" width="44px" height="44px" alt="Jack Sun's avatar">
-            </div>
-            <div>
-                <strong>Jack Sun</strong>
-                <span>2月 15, 2018</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-          
-              <!-- Category -->
-              <span class="post_entry-category">
-                  <a class="post_category-link" href="/categories/C语言/">C语言</a>
-              </span>
-            
-
-            
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-            
-            
-        
-    
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
-    
-        
-            <!-- Random Thumbnail -->
-            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-        
-    
-
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2018/02/15/start/">开始</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            这是一个开...
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2018/02/15/start/" target="_self">繼續閱讀</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/Yoshi.png" width="44px" height="44px" alt="Jack Sun's avatar">
-            </div>
-            <div>
-                <strong>Jack Sun</strong>
-                <span>2月 15, 2018</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-          
-              <!-- Category -->
-              <span class="post_entry-category">
-                  <a class="post_category-link" href="/categories/闲谈/">闲谈</a>
-              </span>
-            
-
-            
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-            
-            
-        
-    
-
-    
-    <!-- Index nav -->
-        <nav class="material-nav mdl-cell mdl-cell--12-col">
-            <a class="extend prev" rel="prev" href="/archives/2018/02/"><button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"><i class="material-icons" role="presentation">arrow_back</i></button></a><a class="page-number" href="/archives/2018/02/">1</a><span class="page-number current">2</span>
-        </nav>
-    
-
-    
-        <script type="text/ls-javascript" id="thumbnail-script">
-    var randomNum;
-
-    var locatePost = $('.locate-thumbnail-symbol').next();
-    for(var i = 0; i < 10; i++) {
-        randomNum = Math.floor(Math.random() * 19 + 1);
-
-        locatePost.children('.post_thumbnail-random').attr('id', 'random_thumbnail-'+randomNum);
-        locatePost.children('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
+    $('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
     $('.post_thumbnail-random').addClass('lazy');
-
-        locatePost = locatePost.next();
-    }
 </script>
 
+        
+    
+            <p class="article-headline-p">
+                C语言注意点
+            </p>
+        </div>
+
+
+
+
+
+                
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/img/Yoshi.png" width="44px" height="44px" alt="Author Avatar"/>
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>Jack Sun</strong>
+        <span>2月 15, 2018</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
+
+    <!-- Qrcode -->
+    
+
+    <!-- Tags (bookmark) -->
+    
+    <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+        <i class="material-icons" role="presentation">bookmark</i>
+        <span class="visuallyhidden">bookmark</span>
+    </button>
+    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
+        <li class="mdl-menu__item">
+        <a class="post_tag-link" href="/tags/tips/">tips</a>
+    </ul>
+    
+
+    <!-- Share -->
+    
+        <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
+    <!-- Leancloud Views -->
+        <a class="post_share-link" href="#">
+            <li class="mdl-menu__item">
+                <span id="/2018/02/15/some tips for C/" class="leancloud-views_num" data-flag-title="C语言注意点">
+     &nbsp;瀏覽量
+</span>
+
+            </li>
+        </a>
+    
+
+    
+
+    <!-- Share Weibo -->
+    
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=C语言注意点&url=http://yoursite.com/2018/02/15/some tips for C/index.html&pic=http://yoursite.com/img/facico.png&searchPic=false&style=simple" target="_blank">
+            <li class="mdl-menu__item">
+                分享到微博
+            </li>
+        </a>
+    
+
+    <!-- Share Twitter -->
+    
+
+    <!-- Share Facebook -->
+    
+
+    <!-- Share Google+ -->
+    
+
+    <!-- Share LinkedIn -->
+    
+
+    <!-- Share QQ -->
+    
+
+    <!-- Share Telegram -->
+    
+</ul>
+
     
 </div>
+
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+    
+        <h3 id="指针"><a href="#指针" class="headerlink" title="指针"></a>指针</h3><pre><code>const：
+int I;
+int const*p=&amp;I; //*p不能被修改
+const int *p=&amp;I; //同上
+int *const p=&amp;I; //p不能改
+</code></pre><h3 id="指针数组"><a href="#指针数组" class="headerlink" title="指针数组"></a>指针数组</h3><pre><code>int i;
+int a[128];
+int *p1=&amp;i;  
+Int *p2=a;
+printf(&quot;%d&quot;,p1[0]); //讲i看为 i[1];
+print(&quot;%d&quot;,p2[1]); //output a[1]
+数组名就是数组首元素的地址
+</code></pre><h3 id="求模"><a href="#求模" class="headerlink" title="求模"></a>求模</h3><pre><code>只能对整数
+结果的符号与被模数相同
+</code></pre><h3 id="一次定义多个指针变量（typedef）"><a href="#一次定义多个指针变量（typedef）" class="headerlink" title="一次定义多个指针变量（typedef）"></a>一次定义多个指针变量（typedef）</h3><pre><code>typedef int* ptr
+ptr a,b,c; //a b c皆是指针变量
+int * a,b,c; //只有a是
+</code></pre><h3 id="结构体的sizeof"><a href="#结构体的sizeof" class="headerlink" title="结构体的sizeof"></a>结构体的sizeof</h3><pre><code>编译器为了提高计算机的效率
+通常会遵守这几点：
+1) 结构体变量的首地址能够被其最宽基本类型成员的大小所整除； 
+2) 结构体每个成员相对于结构体首地址的偏移量（offset）都是成员大小的整数倍，如有需要编译器会在成员之间加上填充字节（internal adding）； 
+3) 结构体的总大小为结构体最宽基本类型成员大小的整数倍，如有需要编译器会在最末一个成员之后加上填充字节（trailing padding）。 
+这叫作字节对齐
+例如这段程序：
+#include &lt;stdio.h&gt;
+struct test{
+    char c;
+    int a;
+    double b;
+    float d;
+}wow;
+int main(){
+    printf(&quot;sizeof char %d\n&quot;,sizeof(char));
+    printf(&quot;sizeof int %d\n&quot;,sizeof(int));
+    printf(&quot;sizeof double %d\n&quot;,sizeof(double));
+    printf(&quot;sizeof float %d\n&quot;,sizeof(float));
+    printf(&quot;sizeof struct %d\n&quot;,sizeof(wow));
+    return 0;
+}
+我的计算机的结果是：
+sizeof char 1
+sizeof int 4
+sizeof double 8
+sizeof float 4
+sizeof struct 24
+多了7个字节 就是给char补了三个 float补了4个
+当然这也不是绝对的，有些编译器可以调，也可能是实际大小。
+</code></pre><h3 id="先这些吧～"><a href="#先这些吧～" class="headerlink" title="先这些吧～"></a>先这些吧～</h3>
+        
+    
+
+    
+</div>
+
+
+                
+
+                <!-- Post Comments -->
+                
+                    
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+        <a href="/2018/02/15/some algorithm/" id="post_nav-newer" class="prev-content">
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_back</i>
+            </button>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            新篇
+        </a>
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+        <a href="/2018/02/15/start/" id="post_nav-older" class="next-content">
+            舊篇
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
+    
+</nav>
+
+        </div>
+    </div>
+
 
 
                     
@@ -893,6 +1030,10 @@ It will not impact the appearance and can give developers a lot of support :)
 <!-- Import prettify js  -->
 
     
+        
+            <script>lsloader.load("prettify_js","/js/prettify.min.js?WN07fivHQSMKWy7BmHBB6w==", true)</script>
+        
+    
 
 
 
@@ -905,6 +1046,11 @@ It will not impact the appearance and can give developers a lot of support :)
     });
 
     
+        
+            $(function() {
+                $('pre').addClass('prettyprint linenums').attr('style', 'overflow:auto;');
+                prettyPrint();
+                })
         
     
     

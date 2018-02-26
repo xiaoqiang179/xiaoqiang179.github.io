@@ -107,8 +107,8 @@
   
   <entry>
     <title>刷完PAT乙级了! 😜🎉</title>
-    <link href="http://yoursite.com/2018/02/25/%E5%88%B7%E5%AE%8CPAT%E4%B9%99%E7%BA%A7%E4%BA%86/"/>
-    <id>http://yoursite.com/2018/02/25/刷完PAT乙级了/</id>
+    <link href="http://yoursite.com/2018/02/25/PAT_Basic_finished/"/>
+    <id>http://yoursite.com/2018/02/25/PAT_Basic_finished/</id>
     <published>2018-02-25T09:30:14.000Z</published>
     <updated>2018-02-25T12:39:45.139Z</updated>
     
@@ -191,8 +191,8 @@
   
   <entry>
     <title>数据库的整理</title>
-    <link href="http://yoursite.com/2018/02/15/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E6%95%B4%E7%90%86/"/>
-    <id>http://yoursite.com/2018/02/15/数据库的整理/</id>
+    <link href="http://yoursite.com/2018/02/15/about%20database/"/>
+    <id>http://yoursite.com/2018/02/15/about database/</id>
     <published>2018-02-15T14:02:34.000Z</published>
     <updated>2018-02-25T12:39:23.975Z</updated>
     
@@ -217,8 +217,8 @@
   
   <entry>
     <title>第一次尝试画图标</title>
-    <link href="http://yoursite.com/2018/02/15/%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%B0%9D%E8%AF%95%E7%94%BB%E5%9B%BE%E6%A0%87/"/>
-    <id>http://yoursite.com/2018/02/15/第一次尝试画图标/</id>
+    <link href="http://yoursite.com/2018/02/15/try%20to%20make%20a%20icon/"/>
+    <id>http://yoursite.com/2018/02/15/try to make a icon/</id>
     <published>2018-02-15T09:41:29.000Z</published>
     <updated>2018-02-25T12:39:09.129Z</updated>
     
@@ -271,8 +271,8 @@
   
   <entry>
     <title>一些算法</title>
-    <link href="http://yoursite.com/2018/02/15/%E4%B8%80%E4%BA%9B%E7%AE%97%E6%B3%95/"/>
-    <id>http://yoursite.com/2018/02/15/一些算法/</id>
+    <link href="http://yoursite.com/2018/02/15/some%20algorithm/"/>
+    <id>http://yoursite.com/2018/02/15/some algorithm/</id>
     <published>2018-02-14T18:13:59.000Z</published>
     <updated>2018-02-25T12:39:55.364Z</updated>
     
@@ -299,8 +299,8 @@
   
   <entry>
     <title>C语言注意点</title>
-    <link href="http://yoursite.com/2018/02/15/C%E8%AF%AD%E8%A8%80%E6%B3%A8%E6%84%8F%E7%82%B9/"/>
-    <id>http://yoursite.com/2018/02/15/C语言注意点/</id>
+    <link href="http://yoursite.com/2018/02/15/some%20tips%20for%20C/"/>
+    <id>http://yoursite.com/2018/02/15/some tips for C/</id>
     <published>2018-02-14T18:13:50.000Z</published>
     <updated>2018-02-25T12:41:02.595Z</updated>
     
@@ -328,8 +328,8 @@ const int
   
   <entry>
     <title>开始</title>
-    <link href="http://yoursite.com/2018/02/15/%E5%BC%80%E5%A7%8B/"/>
-    <id>http://yoursite.com/2018/02/15/开始/</id>
+    <link href="http://yoursite.com/2018/02/15/start/"/>
+    <id>http://yoursite.com/2018/02/15/start/</id>
     <published>2018-02-14T17:06:55.000Z</published>
     <updated>2018-02-25T12:39:35.808Z</updated>
     
