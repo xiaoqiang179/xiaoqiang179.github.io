@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-03-02T11:54:53.461Z</updated>
+  <updated>2018-03-12T10:50:47.218Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>L2-022-重排链表</title>
+    <link href="http://yoursite.com/2018/03/12/rerangelinkedlist/"/>
+    <id>http://yoursite.com/2018/03/12/rerangelinkedlist/</id>
+    <published>2018-03-12T10:39:45.000Z</published>
+    <updated>2018-03-12T10:50:47.218Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;这道题与pat乙级中的那两道链表题差不多,首先放出代码:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;#include &amp;lt;stdio.h&amp;gt;
+#include &amp;lt;stdlib.h&amp;gt;
+#include &amp;lt;stdbool.h&amp;gt;
+#include
+        
+      
+    
+    </summary>
+    
+      <category term="天梯赛" scheme="http://yoursite.com/categories/%E5%A4%A9%E6%A2%AF%E8%B5%9B/"/>
+    
+    
+      <category term="算法" scheme="http://yoursite.com/tags/%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
   
   <entry>
     <title>假期结束了🤨</title>
