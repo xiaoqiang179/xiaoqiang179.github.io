@@ -45,7 +45,7 @@
     
     <title>
         
-            C语言注意点 | 
+            L2-024-部落 | 
         
         小强的博客
     </title>
@@ -56,7 +56,7 @@
 
     <meta name="format-detection" content="telephone=no"/>
     <meta name="description" itemprop="description" content="">
-    <meta name="keywords" content=",tips">
+    <meta name="keywords" content=",算法">
     <meta name="theme-color" content="#0097A7">
 
     <!-- Disable Fucking Bloody Baidu Tranformation -->
@@ -217,7 +217,7 @@
     <!-- WebAPP Icons -->
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="application-name" content="小强的博客">
-    <meta name="msapplication-starturl" content="http://yoursite.com/2018/02/15/some tips for C/">
+    <meta name="msapplication-starturl" content="http://yoursite.com/2018/03/12/buluo/">
     <meta name="msapplication-navbutton-color" content="#0097A7">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-title" content="小强的博客">
@@ -236,16 +236,16 @@
     
 
     <!-- The Open Graph protocol -->
-    <meta property="og:url" content="http://yoursite.com/2018/02/15/some tips for C/">
+    <meta property="og:url" content="http://yoursite.com/2018/03/12/buluo/">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="C语言注意点 | 小强的博客">
+    <meta property="og:title" content="L2-024-部落 | 小强的博客">
     <meta property="og:image" content="/img/facico.png">
     <meta property="og:description" content="">
-    <meta property="og:article:tag" content="tips"> 
+    <meta property="og:article:tag" content="算法"> 
 
     
-        <meta property="article:published_time" content="Thu Feb 15 2018 02:13:50 GMT+0800">
-        <meta property="article:modified_time" content="Sun Feb 25 2018 20:41:02 GMT+0800">
+        <meta property="article:published_time" content="Mon Mar 12 2018 20:28:44 GMT+0800">
+        <meta property="article:modified_time" content="Mon Mar 12 2018 20:36:11 GMT+0800">
     
 
     <!-- The Twitter Card protocol -->
@@ -253,7 +253,7 @@
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="http://yoursite.com/2018/02/15/some tips for C/index.html" />
+        <link rel="canonical" href="http://yoursite.com/2018/03/12/buluo/index.html" />
     
 
     <!-- Structured-data for SEO -->
@@ -265,10 +265,10 @@
 {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
-    "mainEntityOfPage": "http://yoursite.com/2018/02/15/some tips for C/index.html",
-    "headline": "C语言注意点",
-    "datePublished": "Thu Feb 15 2018 02:13:50 GMT+0800",
-    "dateModified": "Sun Feb 25 2018 20:41:02 GMT+0800",
+    "mainEntityOfPage": "http://yoursite.com/2018/03/12/buluo/index.html",
+    "headline": "L2-024-部落",
+    "datePublished": "Mon Mar 12 2018 20:28:44 GMT+0800",
+    "dateModified": "Mon Mar 12 2018 20:36:11 GMT+0800",
     "author": {
         "@type": "Person",
         "name": "Jack Sun",
@@ -286,7 +286,7 @@
             "url": "/img/facico.png"
         }
     },
-    "keywords": ",tips",
+    "keywords": ",算法",
     "description": "",
 }
 </script>
@@ -359,7 +359,7 @@
     </button>
 
     <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
-        <ol class="post-toc"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#指针"><span class="post-toc-number">1.</span> <span class="post-toc-text">指针</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#指针数组"><span class="post-toc-number">2.</span> <span class="post-toc-text">指针数组</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#求模"><span class="post-toc-number">3.</span> <span class="post-toc-text">求模</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#一次定义多个指针变量（typedef）"><span class="post-toc-number">4.</span> <span class="post-toc-text">一次定义多个指针变量（typedef）</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#结构体的sizeof"><span class="post-toc-number">5.</span> <span class="post-toc-text">结构体的sizeof</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#先这些吧～"><span class="post-toc-number">6.</span> <span class="post-toc-text">先这些吧～</span></a></li></ol>
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#典型并查集"><span class="post-toc-number">1.</span> <span class="post-toc-text">典型并查集</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#就是处理那个部落数时注意-一定是出现的人才能统计上-初始的数组都符合map-i-i-我就用了统计人数的数组辅助-这样顺利解决"><span class="post-toc-number">1.0.1.</span> <span class="post-toc-text">就是处理那个部落数时注意,一定是出现的人才能统计上,初始的数组都符合map[i]==i,我就用了统计人数的数组辅助,这样顺利解决.</span></a></li></ol></li></ol></li></ol>
     </ul>
     
 
@@ -391,7 +391,7 @@
         
     
             <p class="article-headline-p">
-                C语言注意点
+                L2-024-部落
             </p>
         </div>
 
@@ -410,7 +410,7 @@
     <!-- Author Name & Date -->
     <div>
         <strong>Jack Sun</strong>
-        <span>2月 15, 2018</span>
+        <span>3月 12, 2018</span>
     </div>
 
     <div class="section-spacer"></div>
@@ -434,7 +434,7 @@
     </button>
     <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
         <li class="mdl-menu__item">
-        <a class="post_tag-link" href="/tags/tips/">tips</a>
+        <a class="post_tag-link" href="/tags/算法/">算法</a>
     </ul>
     
 
@@ -449,7 +449,7 @@
     <!-- Leancloud Views -->
         <a class="post_share-link" href="#">
             <li class="mdl-menu__item">
-                <span id="/2018/02/15/some tips for C/" class="leancloud-views_num" data-flag-title="C语言注意点">
+                <span id="/2018/03/12/buluo/" class="leancloud-views_num" data-flag-title="L2-024-部落">
      &nbsp;瀏覽量
 </span>
 
@@ -461,7 +461,7 @@
 
     <!-- Share Weibo -->
     
-        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=C语言注意点&url=http://yoursite.com/2018/02/15/some tips for C/index.html&pic=http://yoursite.com/img/facico.png&searchPic=false&style=simple" target="_blank">
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=L2-024-部落&url=http://yoursite.com/2018/03/12/buluo/index.html&pic=http://yoursite.com/img/facico.png&searchPic=false&style=simple" target="_blank">
             <li class="mdl-menu__item">
                 分享到微博
             </li>
@@ -495,54 +495,88 @@
                 <!-- Post Content -->
                 <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
     
-        <h3 id="指针"><a href="#指针" class="headerlink" title="指针"></a>指针</h3><pre><code>const：
-int I;
-int const*p=&amp;I; //*p不能被修改
-const int *p=&amp;I; //同上
-int *const p=&amp;I; //p不能改
-</code></pre><h3 id="指针数组"><a href="#指针数组" class="headerlink" title="指针数组"></a>指针数组</h3><pre><code>int i;
-int a[128];
-int *p1=&amp;i;  
-Int *p2=a;
-printf(&quot;%d&quot;,p1[0]); //讲i看为 i[1];
-print(&quot;%d&quot;,p2[1]); //output a[1]
-数组名就是数组首元素的地址
-</code></pre><h3 id="求模"><a href="#求模" class="headerlink" title="求模"></a>求模</h3><pre><code>只能对整数
-结果的符号与被模数相同
-</code></pre><h3 id="一次定义多个指针变量（typedef）"><a href="#一次定义多个指针变量（typedef）" class="headerlink" title="一次定义多个指针变量（typedef）"></a>一次定义多个指针变量（typedef）</h3><pre><code>typedef int* ptr
-ptr a,b,c; //a b c皆是指针变量
-int * a,b,c; //只有a是
-</code></pre><h3 id="结构体的sizeof"><a href="#结构体的sizeof" class="headerlink" title="结构体的sizeof"></a>结构体的sizeof</h3><pre><code>编译器为了提高计算机的效率
-通常会遵守这几点：
-1) 结构体变量的首地址能够被其最宽基本类型成员的大小所整除； 
-2) 结构体每个成员相对于结构体首地址的偏移量（offset）都是成员大小的整数倍，如有需要编译器会在成员之间加上填充字节（internal adding）； 
-3) 结构体的总大小为结构体最宽基本类型成员大小的整数倍，如有需要编译器会在最末一个成员之后加上填充字节（trailing padding）。 
-这叫作字节对齐
-例如这段程序：
-#include &lt;stdio.h&gt;
-struct test{
-    char c;
-    int a;
-    double b;
-    float d;
-}wow;
-int main(){
-    printf(&quot;sizeof char %d\n&quot;,sizeof(char));
-    printf(&quot;sizeof int %d\n&quot;,sizeof(int));
-    printf(&quot;sizeof double %d\n&quot;,sizeof(double));
-    printf(&quot;sizeof float %d\n&quot;,sizeof(float));
-    printf(&quot;sizeof struct %d\n&quot;,sizeof(wow));
-    return 0;
+        <h1 id="典型并查集"><a href="#典型并查集" class="headerlink" title="典型并查集"></a><em>典型并查集</em></h1><pre><code>#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
+#include &lt;math.h&gt;
+#include &lt;string.h&gt;
+#include &lt;stdbool.h&gt;
+#define getboss getboss1
+int map[100000],num[100000],pep;
+int getboss1(int a){
+    if(map[a]==a){
+        return a;
+    }
+    else{
+        map[a]=getboss1(map[a]);
+        return map[a];
+    }
 }
-我的计算机的结果是：
-sizeof char 1
-sizeof int 4
-sizeof double 8
-sizeof float 4
-sizeof struct 24
-多了7个字节 就是给char补了三个 float补了4个
-当然这也不是绝对的，有些编译器可以调，也可能是实际大小。
-</code></pre><h3 id="先这些吧～"><a href="#先这些吧～" class="headerlink" title="先这些吧～"></a>先这些吧～</h3>
+int getboss2(int a){
+    int test=a;
+    if(map[a]==a){
+        return a;
+    }
+    else{
+        while(map[test]!=test){
+            test=map[test];
+        }
+        return test;
+    }
+}
+void merge(int a,int b){
+    int t1,t2;
+    t1=getboss(a);
+    t2=getboss(b);
+    if(t1!=t2){
+        map[t2]=t1;
+    }
+    return;
+}
+int main(void) {
+    int n,m,i,j;
+    scanf(&quot;%d&quot;,&amp;n);
+    for(i=1;i&lt;=10000;i++){
+        map[i]=i;
+    }
+    for(i=0;i&lt;n;i++){
+        scanf(&quot;%d&quot;,&amp;m);
+        int boss;
+        scanf(&quot;%d&quot;,&amp;boss);
+        if(num[boss]==0){
+            num[boss]=1;
+            pep++;
+        }
+        for(j=0;j&lt;m-1;j++){
+            int temp;
+            scanf(&quot;%d&quot;,&amp;temp);
+            if(num[temp]==0){
+                num[temp]=1;
+                pep++;
+            }
+            merge(boss,temp);
+        }
+    }
+    n=0;
+    for(i=1;i&lt;=10001;i++){
+        if(map[i]==i&amp;&amp;num[i]==1){
+            n++;
+        }
+    }
+    printf(&quot;%d %d\n&quot;,pep,n);
+    scanf(&quot;%d&quot;,&amp;n);
+    for(i=0;i&lt;n;i++){
+        int temp1,temp2;
+        scanf(&quot;%d%d&quot;,&amp;temp1,&amp;temp2);
+        if(getboss(temp1)==getboss(temp2)){
+            printf(&quot;Y\n&quot;);
+        }
+        else{
+            printf(&quot;N\n&quot;);
+        }
+    }
+}
+</code></pre><p>这是第一次写并查集的题,写了俩“找祖宗”的函数,递归写法可以,但循环就超时了,这个题照着啊哈上写就能做对~ 😉</p>
+<h3 id="就是处理那个部落数时注意-一定是出现的人才能统计上-初始的数组都符合map-i-i-我就用了统计人数的数组辅助-这样顺利解决"><a href="#就是处理那个部落数时注意-一定是出现的人才能统计上-初始的数组都符合map-i-i-我就用了统计人数的数组辅助-这样顺利解决" class="headerlink" title="就是处理那个部落数时注意,一定是出现的人才能统计上,初始的数组都符合map[i]==i,我就用了统计人数的数组辅助,这样顺利解决."></a>就是处理那个部落数时注意,一定是出现的人才能统计上,初始的数组都符合map[i]==i,我就用了统计人数的数组辅助,这样顺利解决.</h3>
         
     
 
@@ -562,21 +596,13 @@ sizeof struct 24
             <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
     <!-- Prev Nav -->
     
-        <a href="/2018/02/15/some algorithm/" id="post_nav-newer" class="prev-content">
-            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
-                <i class="material-icons">arrow_back</i>
-            </button>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            新篇
-        </a>
-    
 
     <!-- Section Spacer -->
     <div class="section-spacer"></div>
 
     <!-- Next Nav -->
     
-        <a href="/2018/02/15/start/" id="post_nav-older" class="next-content">
+        <a href="/2018/03/12/rerangelinkedlist/" id="post_nav-older" class="next-content">
             舊篇
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
