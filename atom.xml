@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-03-12T13:17:38.466Z</updated>
+  <updated>2018-03-14T01:46:27.424Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>HDU-1856-More is better</title>
+    <link href="http://yoursite.com/2018/03/14/HDU-1856-moreisbetter/"/>
+    <id>http://yoursite.com/2018/03/14/HDU-1856-moreisbetter/</id>
+    <published>2018-03-14T01:42:03.000Z</published>
+    <updated>2018-03-14T01:46:27.424Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;这道题没难的-主要是要找到最大的集合-我直接在一个数组里记录-最后找最大值-值得注意的是若n-0的话应输出1-就是因为这个卡了好久&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="HDU" scheme="http://yoursite.com/categories/HDU/"/>
+    
+    
+      <category term="并查集" scheme="http://yoursite.com/tags/%E5%B9%B6%E6%9F%A5%E9%9B%86/"/>
+    
+  </entry>
   
   <entry>
     <title>HDU-1232-畅通工程</title>
@@ -47,7 +73,7 @@
     <link href="http://yoursite.com/2018/03/12/buluo/"/>
     <id>http://yoursite.com/2018/03/12/buluo/</id>
     <published>2018-03-12T12:28:44.000Z</published>
-    <updated>2018-03-12T12:36:11.631Z</updated>
+    <updated>2018-03-14T01:46:52.697Z</updated>
     
     <summary type="html">
     
@@ -65,7 +91,7 @@
       <category term="天梯赛" scheme="http://yoursite.com/categories/%E5%A4%A9%E6%A2%AF%E8%B5%9B/"/>
     
     
-      <category term="算法" scheme="http://yoursite.com/tags/%E7%AE%97%E6%B3%95/"/>
+      <category term="并查集" scheme="http://yoursite.com/tags/%E5%B9%B6%E6%9F%A5%E9%9B%86/"/>
     
   </entry>
   
@@ -552,30 +578,6 @@ const int
     
     
       <category term="tips" scheme="http://yoursite.com/tags/tips/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>开始</title>
-    <link href="http://yoursite.com/2018/02/15/start/"/>
-    <id>http://yoursite.com/2018/02/15/start/</id>
-    <published>2018-02-14T17:06:55.000Z</published>
-    <updated>2018-02-25T12:39:35.808Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;这是一个开始&quot;&gt;&lt;a href=&quot;#这是一个开始&quot; class=&quot;headerlink&quot; title=&quot;这是一个开始&quot;&gt;&lt;/a&gt;这是一个开始&lt;/h1&gt;&lt;h3 id=&quot;上帝不会对努力的人不公平&quot;&gt;&lt;a href=&quot;#上帝不会对努力的人不公平&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="闲谈" scheme="http://yoursite.com/categories/%E9%97%B2%E8%B0%88/"/>
-    
     
   </entry>
   
