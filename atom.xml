@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-03-14T01:46:27.424Z</updated>
+  <updated>2018-03-16T12:00:11.577Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>How Many Tables</title>
+    <link href="http://yoursite.com/2018/03/16/howmanytables/"/>
+    <id>http://yoursite.com/2018/03/16/howmanytables/</id>
+    <published>2018-03-16T11:58:48.000Z</published>
+    <updated>2018-03-16T12:00:11.577Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;最水并查集-没有之一&quot;&gt;&lt;a href=&quot;#最水并查集-没有之一&quot; class=&quot;headerlink&quot; title=&quot;最水并查集,没有之一 ~&quot;&gt;&lt;/a&gt;最水并查集,没有之一 ~&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;#include
+        
+      
+    
+    </summary>
+    
+      <category term="HDU" scheme="http://yoursite.com/categories/HDU/"/>
+    
+    
+      <category term="并查集" scheme="http://yoursite.com/tags/%E5%B9%B6%E6%9F%A5%E9%9B%86/"/>
+    
+  </entry>
   
   <entry>
     <title>HDU-1856-More is better</title>
@@ -549,35 +575,6 @@
     
     
       <category term="算法" scheme="http://yoursite.com/tags/%E7%AE%97%E6%B3%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>C语言注意点</title>
-    <link href="http://yoursite.com/2018/02/15/some%20tips%20for%20C/"/>
-    <id>http://yoursite.com/2018/02/15/some tips for C/</id>
-    <published>2018-02-14T18:13:50.000Z</published>
-    <updated>2018-02-25T12:41:02.595Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h3 id=&quot;指针&quot;&gt;&lt;a href=&quot;#指针&quot; class=&quot;headerlink&quot; title=&quot;指针&quot;&gt;&lt;/a&gt;指针&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;const：
-int I;
-int const*p=&amp;amp;I; //*p不能被修改
-const int
-        
-      
-    
-    </summary>
-    
-      <category term="C语言" scheme="http://yoursite.com/categories/C%E8%AF%AD%E8%A8%80/"/>
-    
-    
-      <category term="tips" scheme="http://yoursite.com/tags/tips/"/>
     
   </entry>
   
