@@ -152,6 +152,32 @@
   </entry>
   
   <entry>
+    <title>C++STL中的vector容器</title>
+    <link href="http://yoursite.com/2018/03/09/c-STL-vector/"/>
+    <id>http://yoursite.com/2018/03/09/c-STL-vector/</id>
+    <published>2018-03-09T13:27:27.000Z</published>
+    <updated>2018-03-17T12:09:29.400Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;c-primer中说-“通常-使用vector是最好的选择-除非你有很好的理由选择其他容器-”&quot;&gt;&lt;a href=&quot;#c-primer中说-“通常-使用vector是最好的选择-除非你有很好的理由选择其他容器-”&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="C++" scheme="http://yoursite.com/categories/C/"/>
+    
+    
+      <category term="STL" scheme="http://yoursite.com/tags/STL/"/>
+    
+  </entry>
+  
+  <entry>
     <title>假期结束了🤨</title>
     <link href="http://yoursite.com/2018/03/02/vocation-done/"/>
     <id>http://yoursite.com/2018/03/02/vocation-done/</id>
@@ -547,34 +573,6 @@
     
     
       <category term="PAT" scheme="http://yoursite.com/tags/PAT/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>一些算法</title>
-    <link href="http://yoursite.com/2018/02/15/some%20algorithm/"/>
-    <id>http://yoursite.com/2018/02/15/some algorithm/</id>
-    <published>2018-02-14T18:13:59.000Z</published>
-    <updated>2018-02-25T12:39:55.364Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h3 id=&quot;快速幂：&quot;&gt;&lt;a href=&quot;#快速幂：&quot; class=&quot;headerlink&quot; title=&quot;快速幂：&quot;&gt;&lt;/a&gt;快速幂：&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;double poww(int a,int b){
-    double ans=1,base=a;
-  
-        
-      
-    
-    </summary>
-    
-      <category term="算法" scheme="http://yoursite.com/categories/%E7%AE%97%E6%B3%95/"/>
-    
-    
-      <category term="算法" scheme="http://yoursite.com/tags/%E7%AE%97%E6%B3%95/"/>
     
   </entry>
   
