@@ -45,7 +45,7 @@
     
     <title>
         
-            L2-024-部落 | 
+            Maze_Codeforces Round | 
         
         小强的博客
     </title>
@@ -56,7 +56,7 @@
 
     <meta name="format-detection" content="telephone=no"/>
     <meta name="description" itemprop="description" content="">
-    <meta name="keywords" content=",并查集">
+    <meta name="keywords" content=",BFS">
     <meta name="theme-color" content="#0097A7">
 
     <!-- Disable Fucking Bloody Baidu Tranformation -->
@@ -222,7 +222,7 @@
     <!-- WebAPP Icons -->
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="application-name" content="小强的博客">
-    <meta name="msapplication-starturl" content="http://yoursite.com/2018/03/12/buluo/">
+    <meta name="msapplication-starturl" content="http://yoursite.com/2018/03/24/astrangesearchquestion/">
     <meta name="msapplication-navbutton-color" content="#0097A7">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-title" content="小强的博客">
@@ -241,16 +241,16 @@
     
 
     <!-- The Open Graph protocol -->
-    <meta property="og:url" content="http://yoursite.com/2018/03/12/buluo/">
+    <meta property="og:url" content="http://yoursite.com/2018/03/24/astrangesearchquestion/">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="L2-024-部落 | 小强的博客">
+    <meta property="og:title" content="Maze_Codeforces Round | 小强的博客">
     <meta property="og:image" content="/img/facico.png">
     <meta property="og:description" content="">
-    <meta property="og:article:tag" content="并查集"> 
+    <meta property="og:article:tag" content="BFS"> 
 
     
-        <meta property="article:published_time" content="Mon Mar 12 2018 20:28:44 GMT+0800">
-        <meta property="article:modified_time" content="Wed Mar 14 2018 09:46:52 GMT+0800">
+        <meta property="article:published_time" content="Sat Mar 24 2018 00:21:50 GMT+0800">
+        <meta property="article:modified_time" content="Sat Mar 24 2018 00:31:30 GMT+0800">
     
 
     <!-- The Twitter Card protocol -->
@@ -258,7 +258,7 @@
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="http://yoursite.com/2018/03/12/buluo/index.html" />
+        <link rel="canonical" href="http://yoursite.com/2018/03/24/astrangesearchquestion/index.html" />
     
 
     <!-- Structured-data for SEO -->
@@ -270,10 +270,10 @@
 {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
-    "mainEntityOfPage": "http://yoursite.com/2018/03/12/buluo/index.html",
-    "headline": "L2-024-部落",
-    "datePublished": "Mon Mar 12 2018 20:28:44 GMT+0800",
-    "dateModified": "Wed Mar 14 2018 09:46:52 GMT+0800",
+    "mainEntityOfPage": "http://yoursite.com/2018/03/24/astrangesearchquestion/index.html",
+    "headline": "Maze_Codeforces Round",
+    "datePublished": "Sat Mar 24 2018 00:21:50 GMT+0800",
+    "dateModified": "Sat Mar 24 2018 00:31:30 GMT+0800",
     "author": {
         "@type": "Person",
         "name": "Jack Sun",
@@ -291,7 +291,7 @@
             "url": "/img/facico.png"
         }
     },
-    "keywords": ",并查集",
+    "keywords": ",BFS",
     "description": "",
 }
 </script>
@@ -364,7 +364,7 @@
     </button>
 
     <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
-        <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#典型并查集"><span class="post-toc-number">1.</span> <span class="post-toc-text">典型并查集</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#就是处理那个部落数时注意-一定是出现的人才能统计上-初始的数组都符合map-i-i-我就用了统计人数的数组辅助-这样顺利解决"><span class="post-toc-number">1.0.1.</span> <span class="post-toc-text">就是处理那个部落数时注意,一定是出现的人才能统计上,初始的数组都符合map[i]==i,我就用了统计人数的数组辅助,这样顺利解决.</span></a></li></ol></li></ol></li></ol>
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#这道题挺好玩的😂"><span class="post-toc-number">1.</span> <span class="post-toc-text">这道题挺好玩的😂</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#放出代码"><span class="post-toc-number"></span> <span class="post-toc-text">放出代码:</span></a>
     </ul>
     
 
@@ -396,7 +396,7 @@
         
     
             <p class="article-headline-p">
-                L2-024-部落
+                Maze_Codeforces Round
             </p>
         </div>
 
@@ -415,7 +415,7 @@
     <!-- Author Name & Date -->
     <div>
         <strong>Jack Sun</strong>
-        <span>3月 12, 2018</span>
+        <span>3月 24, 2018</span>
     </div>
 
     <div class="section-spacer"></div>
@@ -439,7 +439,7 @@
     </button>
     <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
         <li class="mdl-menu__item">
-        <a class="post_tag-link" href="/tags/并查集/">并查集</a>
+        <a class="post_tag-link" href="/tags/BFS/">BFS</a>
     </ul>
     
 
@@ -467,7 +467,7 @@
 
     <!-- Share Weibo -->
     
-        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=L2-024-部落&url=http://yoursite.com/2018/03/12/buluo/index.html&pic=http://yoursite.com/img/facico.png&searchPic=false&style=simple" target="_blank">
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=Maze_Codeforces Round&url=http://yoursite.com/2018/03/24/astrangesearchquestion/index.html&pic=http://yoursite.com/img/facico.png&searchPic=false&style=simple" target="_blank">
             <li class="mdl-menu__item">
                 分享到微博
             </li>
@@ -501,88 +501,74 @@
                 <!-- Post Content -->
                 <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
     
-        <h1 id="典型并查集"><a href="#典型并查集" class="headerlink" title="典型并查集"></a><em>典型并查集</em></h1><pre><code>#include &lt;stdio.h&gt;
-#include &lt;stdlib.h&gt;
-#include &lt;math.h&gt;
-#include &lt;string.h&gt;
-#include &lt;stdbool.h&gt;
-#define getboss getboss1
-int map[100000],num[100000],pep;
-int getboss1(int a){
-    if(map[a]==a){
-        return a;
-    }
-    else{
-        map[a]=getboss1(map[a]);
-        return map[a];
-    }
-}
-int getboss2(int a){
-    int test=a;
-    if(map[a]==a){
-        return a;
-    }
-    else{
-        while(map[test]!=test){
-            test=map[test];
-        }
-        return test;
-    }
-}
-void merge(int a,int b){
-    int t1,t2;
-    t1=getboss(a);
-    t2=getboss(b);
-    if(t1!=t2){
-        map[t2]=t1;
-    }
-    return;
-}
-int main(void) {
-    int n,m,i,j;
-    scanf(&quot;%d&quot;,&amp;n);
-    for(i=1;i&lt;=10000;i++){
-        map[i]=i;
-    }
+        <p><a href="https://vjudge.net/problem/CodeForces-377A" target="_blank" rel="noopener">题目地址</a></p>
+<h3 id="这道题挺好玩的😂"><a href="#这道题挺好玩的😂" class="headerlink" title="这道题挺好玩的😂"></a>这道题挺好玩的😂</h3><p>我的思路是这样的,题目既然说了初始的路是全连通的,我们可以统计空地数,减去k,得到的值就是目标要留出的连通空地数,我直接吧是空地的初始化为‘X’,搜索到再改成‘.’,这样很省事,但是注意在循环走四个方向时,若是找到了空地,准备入队时一定要判断一下是否已经到到目的,我就是因为没判断错了好几次😂😤,也或许是我的程序结构的问题,必须要判断,看实际情况.</p>
+<h2 id="放出代码"><a href="#放出代码" class="headerlink" title="放出代码:"></a>放出代码:</h2><pre><code>#include &lt;stdio.h&gt;
+struct queue{
+    int x;
+    int y;
+};
+int main(int argc, char *argv[]) {
+    int n,m,k,i,j,head=0,tail=0,tempx=0,tempy=0,t=0;
+    int walk[4][2]={{1,0},{0,1},{-1,0},{0,-1}};
+    char map[510][510]={&#39;\0&#39;};
+    struct queue data[250100];
+    scanf(&quot;%d%d%d&quot;,&amp;n,&amp;m,&amp;k);
+    getchar();
     for(i=0;i&lt;n;i++){
-        scanf(&quot;%d&quot;,&amp;m);
-        int boss;
-        scanf(&quot;%d&quot;,&amp;boss);
-        if(num[boss]==0){
-            num[boss]=1;
-            pep++;
-        }
-        for(j=0;j&lt;m-1;j++){
-            int temp;
-            scanf(&quot;%d&quot;,&amp;temp);
-            if(num[temp]==0){
-                num[temp]=1;
-                pep++;
+        for(j=0;j&lt;m;j++){
+            scanf(&quot;%c&quot;,&amp;map[i][j]);
+            if(map[i][j]==&#39;.&#39;){
+                map[i][j]=&#39;X&#39;;
+                t++;
             }
-            merge(boss,temp);
         }
+        getchar();
     }
-    n=0;
-    for(i=1;i&lt;=10001;i++){
-        if(map[i]==i&amp;&amp;num[i]==1){
-            n++;
-        }
-    }
-    printf(&quot;%d %d\n&quot;,pep,n);
-    scanf(&quot;%d&quot;,&amp;n);
+    t-=k;
+    int flag=0;
     for(i=0;i&lt;n;i++){
-        int temp1,temp2;
-        scanf(&quot;%d%d&quot;,&amp;temp1,&amp;temp2);
-        if(getboss(temp1)==getboss(temp2)){
-            printf(&quot;Y\n&quot;);
+        for(j=0;j&lt;m;j++){
+            if(map[i][j]==&#39;X&#39;){
+                map[i][j]=&#39;.&#39;;
+                data[tail].x=j;
+                data[tail].y=i;
+                tail++;
+                t--;
+                flag=1;
+                break;
+            }
         }
-        else{
-            printf(&quot;N\n&quot;);
+        if(flag==1){
+            break;
         }
     }
+    while(t&gt;=1){
+        for(i=0;i&lt;4;i++){
+            tempx=data[head].x+walk[i][0];
+            tempy=data[head].y+walk[i][1];
+            if(tempx==m||tempx==-1||tempy==n||tempy==-1){
+                continue;
+            }
+            if(map[tempy][tempx]==&#39;X&#39;&amp;&amp;t!=0){
+                map[tempy][tempx]=&#39;.&#39;;
+                data[tail].x=tempx;
+                data[tail].y=tempy;
+                t--;
+                tail++;
+            }
+        }
+        head++;
+    }
+    for(i=0;i&lt;n;i++){
+        for(j=0;j&lt;m;j++){
+            printf(&quot;%c&quot;,map[i][j]);
+        }
+        printf(&quot;\n&quot;);
+    }
+    return 0;
 }
-</code></pre><p>这是第一次写并查集的题,写了俩“找祖宗”的函数,递归写法可以,但循环就超时了,这个题照着啊哈上写就能做对~ 😉</p>
-<h3 id="就是处理那个部落数时注意-一定是出现的人才能统计上-初始的数组都符合map-i-i-我就用了统计人数的数组辅助-这样顺利解决"><a href="#就是处理那个部落数时注意-一定是出现的人才能统计上-初始的数组都符合map-i-i-我就用了统计人数的数组辅助-这样顺利解决" class="headerlink" title="就是处理那个部落数时注意,一定是出现的人才能统计上,初始的数组都符合map[i]==i,我就用了统计人数的数组辅助,这样顺利解决."></a>就是处理那个部落数时注意,一定是出现的人才能统计上,初始的数组都符合map[i]==i,我就用了统计人数的数组辅助,这样顺利解决.</h3>
+</code></pre>
         
     
 
@@ -602,21 +588,13 @@ int main(void) {
             <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
     <!-- Prev Nav -->
     
-        <a href="/2018/03/12/hdu1232/" id="post_nav-newer" class="prev-content">
-            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
-                <i class="material-icons">arrow_back</i>
-            </button>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            新篇
-        </a>
-    
 
     <!-- Section Spacer -->
     <div class="section-spacer"></div>
 
     <!-- Next Nav -->
     
-        <a href="/2018/03/12/rerangelinkedlist/" id="post_nav-older" class="next-content">
+        <a href="/2018/03/22/nqueen/" id="post_nav-older" class="next-content">
             舊篇
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-03-22T13:42:58.236Z</updated>
+  <updated>2018-03-23T16:31:30.638Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Maze_Codeforces Round</title>
+    <link href="http://yoursite.com/2018/03/24/astrangesearchquestion/"/>
+    <id>http://yoursite.com/2018/03/24/astrangesearchquestion/</id>
+    <published>2018-03-23T16:21:50.000Z</published>
+    <updated>2018-03-23T16:31:30.638Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;a href=&quot;https://vjudge.net/problem/CodeForces-377A&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;题目地址&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;这道题挺好玩的😂&quot;&gt;&lt;a href=&quot;#这道题挺好玩的😂&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="Codeforces" scheme="http://yoursite.com/categories/Codeforces/"/>
+    
+    
+      <category term="BFS" scheme="http://yoursite.com/tags/BFS/"/>
+    
+  </entry>
   
   <entry>
     <title>N皇后问题_HDU_2553</title>
@@ -323,7 +350,7 @@
     <link href="http://yoursite.com/2018/02/26/POJ-1562-Oil-Deposits/"/>
     <id>http://yoursite.com/2018/02/26/POJ-1562-Oil-Deposits/</id>
     <published>2018-02-26T09:18:10.000Z</published>
-    <updated>2018-03-14T01:57:30.398Z</updated>
+    <updated>2018-03-23T12:49:01.553Z</updated>
     
     <summary type="html">
     
@@ -545,30 +572,6 @@
     
     
       <category term="数据库" scheme="http://yoursite.com/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>第一次尝试画图标</title>
-    <link href="http://yoursite.com/2018/02/15/try%20to%20make%20a%20icon/"/>
-    <id>http://yoursite.com/2018/02/15/try to make a icon/</id>
-    <published>2018-02-15T09:41:29.000Z</published>
-    <updated>2018-02-25T12:39:09.129Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;sketch真心好用啊&quot;&gt;&lt;a href=&quot;#sketch真心好用啊&quot; class=&quot;headerlink&quot; title=&quot;sketch真心好用啊&quot;&gt;&lt;/a&gt;sketch真心好用啊&lt;/h1&gt;&lt;h2 id=&quot;简直神器&quot;&gt;&lt;a href=&quot;#简直神器&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="画图标" scheme="http://yoursite.com/categories/%E7%94%BB%E5%9B%BE%E6%A0%87/"/>
-    
     
   </entry>
   
