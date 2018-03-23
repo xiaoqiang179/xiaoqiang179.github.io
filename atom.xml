@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-03-23T16:31:30.638Z</updated>
+  <updated>2018-03-23T16:33:16.315Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Maze_Codeforces Round</title>
+    <title>Maze_广度优先搜索</title>
     <link href="http://yoursite.com/2018/03/24/astrangesearchquestion/"/>
     <id>http://yoursite.com/2018/03/24/astrangesearchquestion/</id>
     <published>2018-03-23T16:21:50.000Z</published>
-    <updated>2018-03-23T16:31:30.638Z</updated>
+    <updated>2018-03-23T16:33:16.315Z</updated>
     
     <summary type="html">
     
@@ -30,7 +30,7 @@
         
         
           &lt;p&gt;&lt;a href=&quot;https://vjudge.net/problem/CodeForces-377A&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;题目地址&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;这道题挺好玩的😂&quot;&gt;&lt;a href=&quot;#这道题挺好玩的😂&quot;
+&lt;h3 id=&quot;这道题挺好玩的😂让我对BFS有了更深的认识&quot;&gt;&lt;a
         
       
     
