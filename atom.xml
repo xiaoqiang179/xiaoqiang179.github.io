@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-03-25T15:34:59.860Z</updated>
+  <updated>2018-03-31T14:18:01.773Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>PAT_Basic_1020</title>
-    <link href="http://yoursite.com/2018/03/25/patb1020/"/>
-    <id>http://yoursite.com/2018/03/25/patb1020/</id>
-    <published>2018-03-25T15:28:42.000Z</published>
-    <updated>2018-03-25T15:34:59.860Z</updated>
+    <title>sukou</title>
+    <link href="http://yoursite.com/2018/03/31/sukou/"/>
+    <id>http://yoursite.com/2018/03/31/sukou/</id>
+    <published>2018-03-31T14:16:17.000Z</published>
+    <updated>2018-03-31T14:18:01.773Z</updated>
     
     <summary type="html">
     
@@ -29,16 +29,78 @@
       
         
         
-          &lt;h1 id=&quot;排一下单利润-就解决了&quot;&gt;&lt;a href=&quot;#排一下单利润-就解决了&quot; class=&quot;headerlink&quot; title=&quot;排一下单利润,就解决了!&quot;&gt;&lt;/a&gt;排一下单利润,就解决了!&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;#include
+          &lt;pre&gt;&lt;code&gt;#include &amp;lt;stdio.h&amp;gt;
+#include &amp;lt;stdlib.h&amp;gt;
+#include &amp;lt;stdbool.h&amp;gt;
+#include &amp;lt;string.h&amp;gt;
+#include
         
       
     
     </summary>
     
-      <category term="PAT_Basic" scheme="http://yoursite.com/categories/PAT-Basic/"/>
+      <category term="POJ" scheme="http://yoursite.com/categories/POJ/"/>
     
     
-      <category term="PAT" scheme="http://yoursite.com/tags/PAT/"/>
+      <category term="DFS" scheme="http://yoursite.com/tags/DFS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Pie~</title>
+    <link href="http://yoursite.com/2018/03/31/Pie/"/>
+    <id>http://yoursite.com/2018/03/31/Pie/</id>
+    <published>2018-03-31T14:00:05.000Z</published>
+    <updated>2018-03-31T14:14:23.682Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;pre&gt;&lt;code&gt;#include &amp;lt;stdio.h&amp;gt;
+#include &amp;lt;math.h&amp;gt;
+#include &amp;lt;string.h&amp;gt;
+#define pi acos(-1)
+int main(){
+    int i,n,k,t;
+   
+        
+      
+    
+    </summary>
+    
+      <category term="POJ" scheme="http://yoursite.com/categories/POJ/"/>
+    
+    
+      <category term="二分" scheme="http://yoursite.com/tags/%E4%BA%8C%E5%88%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>dfsopt</title>
+    <link href="http://yoursite.com/2018/03/28/dfsopt/"/>
+    <id>http://yoursite.com/2018/03/28/dfsopt/</id>
+    <published>2018-03-28T08:55:57.000Z</published>
+    <updated>2018-03-28T08:56:07.460Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;pre&gt;&lt;code&gt;#include &amp;lt;stdio.h&amp;gt;
+#include &amp;lt;stdlib.h&amp;gt;
+#include &amp;lt;stdbool.h&amp;gt;
+#include &amp;lt;string.h&amp;gt;
+#include
+        
+      
+    
+    </summary>
+    
     
   </entry>
   
@@ -57,6 +119,32 @@
         
           &lt;h1 id=&quot;超级简单的&quot;&gt;&lt;a href=&quot;#超级简单的&quot; class=&quot;headerlink&quot; title=&quot;超级简单的&quot;&gt;&lt;/a&gt;超级简单的&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;#include &amp;lt;stdio.h&amp;gt;
 #include
+        
+      
+    
+    </summary>
+    
+      <category term="PAT_Basic" scheme="http://yoursite.com/categories/PAT-Basic/"/>
+    
+    
+      <category term="PAT" scheme="http://yoursite.com/tags/PAT/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PAT_Basic_1020</title>
+    <link href="http://yoursite.com/2018/03/25/patb1020/"/>
+    <id>http://yoursite.com/2018/03/25/patb1020/</id>
+    <published>2018-03-25T15:28:42.000Z</published>
+    <updated>2018-03-25T15:34:59.860Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;排一下单利润-就解决了&quot;&gt;&lt;a href=&quot;#排一下单利润-就解决了&quot; class=&quot;headerlink&quot; title=&quot;排一下单利润,就解决了!&quot;&gt;&lt;/a&gt;排一下单利润,就解决了!&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;#include
         
       
     
@@ -479,85 +567,6 @@
 #include &amp;lt;math.h&amp;gt;
 #include &amp;lt;stdbool.h&amp;gt;
 #include
-        
-      
-    
-    </summary>
-    
-      <category term="PAT_Basic" scheme="http://yoursite.com/categories/PAT-Basic/"/>
-    
-    
-      <category term="PAT" scheme="http://yoursite.com/tags/PAT/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PAT-Basic-1005</title>
-    <link href="http://yoursite.com/2018/02/25/patb1005/"/>
-    <id>http://yoursite.com/2018/02/25/patb1005/</id>
-    <published>2018-02-25T09:46:10.000Z</published>
-    <updated>2018-02-25T12:40:42.247Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;首先是代码&quot;&gt;&lt;a href=&quot;#首先是代码&quot; class=&quot;headerlink&quot; title=&quot;首先是代码:&quot;&gt;&lt;/a&gt;首先是代码:&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;#include &amp;lt;stdio.h&amp;gt;
-#include
-        
-      
-    
-    </summary>
-    
-      <category term="PAT_Basic" scheme="http://yoursite.com/categories/PAT-Basic/"/>
-    
-    
-      <category term="PAT" scheme="http://yoursite.com/tags/PAT/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>刷完PAT乙级了! 😜🎉</title>
-    <link href="http://yoursite.com/2018/02/25/PAT_Basic_finished/"/>
-    <id>http://yoursite.com/2018/02/25/PAT_Basic_finished/</id>
-    <published>2018-02-25T09:30:14.000Z</published>
-    <updated>2018-02-25T12:39:45.139Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;水题真的有点够了-要开始更深层的题目了&quot;&gt;&lt;a href=&quot;#水题真的有点够了-要开始更深层的题目了&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="闲谈" scheme="http://yoursite.com/categories/%E9%97%B2%E8%B0%88/"/>
-    
-    
-      <category term="PAT" scheme="http://yoursite.com/tags/PAT/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PAT_Basic_1015</title>
-    <link href="http://yoursite.com/2018/02/17/patb1015/"/>
-    <id>http://yoursite.com/2018/02/17/patb1015/</id>
-    <published>2018-02-17T13:37:52.000Z</published>
-    <updated>2018-02-25T12:40:35.728Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;我们来谈谈快排“函数”～&quot;&gt;&lt;a href=&quot;#我们来谈谈快排“函数”～&quot; class=&quot;headerlink&quot;
         
       
     

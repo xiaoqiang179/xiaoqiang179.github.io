@@ -250,7 +250,7 @@
 
     
         <meta property="article:published_time" content="Thu Feb 15 2018 02:13:59 GMT+0800">
-        <meta property="article:modified_time" content="Sun Feb 25 2018 20:39:55 GMT+0800">
+        <meta property="article:modified_time" content="Wed Mar 28 2018 17:03:36 GMT+0800">
     
 
     <!-- The Twitter Card protocol -->
@@ -273,7 +273,7 @@
     "mainEntityOfPage": "http://yoursite.com/2018/02/15/some algorithm/index.html",
     "headline": "一些算法",
     "datePublished": "Thu Feb 15 2018 02:13:59 GMT+0800",
-    "dateModified": "Sun Feb 25 2018 20:39:55 GMT+0800",
+    "dateModified": "Wed Mar 28 2018 17:03:36 GMT+0800",
     "author": {
         "@type": "Person",
         "name": "Jack Sun",
@@ -512,13 +512,13 @@
     }
     return ans;
 }
-</code></pre><h3 id="快速幂取模"><a href="#快速幂取模" class="headerlink" title="快速幂取模"></a>快速幂取模</h3><pre><code>long long quick(long long a,long long b，int c){
-    long long ans=1;   //记录结果
-    a=a%c;   //预处理，使得a处于c的数据范围之下
+</code></pre><h3 id="快速幂取模"><a href="#快速幂取模" class="headerlink" title="快速幂取模"></a>快速幂取模</h3><pre><code>long long quick(int a,int b,int c){
+    long long ans=1;
+    a=a%c;
     while(b!=0){
-        if(b&amp;1) ans=(ansa)%c;   //如果b的二进制位不是0，那么我们的结果是要参与运算的
-        b&gt;&gt;=1;    //二进制的移位操作，相当于每次除以2，用二进制看，就是我们不断的遍历b的二进制位
-        a=(aa)%c;   //不断的加倍
+        if(b&amp;1) ans=(ans*a)%c;
+        b&gt;&gt;=1;
+        a=(a*a)%c;
     }
     return ans;
 }
@@ -776,7 +776,7 @@ double process(double a){
             </a>
             <ul class="dropdown-menu">
             <li>
-                <a class="sidebar_archives-link" href="/archives/2018/03/">三月 2018<span class="sidebar_archives-count">12</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/02/">二月 2018<span class="sidebar_archives-count">15</span></a>
+                <a class="sidebar_archives-link" href="/archives/2018/03/">三月 2018<span class="sidebar_archives-count">15</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/02/">二月 2018<span class="sidebar_archives-count">15</span></a>
             </ul>
         </li>
         
@@ -794,7 +794,7 @@ double process(double a){
             </a>
             <ul class="dropdown-menu">
                 <li>
-                <a class="sidebar_archives-link" href="/categories/C/">C++<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/Codeforces/">Codeforces<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/C语言/">C语言<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/categories/Database/">Database<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/HDU/">HDU<span class="sidebar_archives-count">5</span></a></li><li><a class="sidebar_archives-link" href="/categories/PAT-Basic/">PAT_Basic<span class="sidebar_archives-count">8</span></a></li><li><a class="sidebar_archives-link" href="/categories/POJ/">POJ<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/categories/天梯赛/">天梯赛<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/categories/画图标/">画图标<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/算法/">算法<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/闲谈/">闲谈<span class="sidebar_archives-count">3</span></a>
+                <a class="sidebar_archives-link" href="/categories/C/">C++<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/Codeforces/">Codeforces<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/C语言/">C语言<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/categories/Database/">Database<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/HDU/">HDU<span class="sidebar_archives-count">5</span></a></li><li><a class="sidebar_archives-link" href="/categories/PAT-Basic/">PAT_Basic<span class="sidebar_archives-count">8</span></a></li><li><a class="sidebar_archives-link" href="/categories/POJ/">POJ<span class="sidebar_archives-count">4</span></a></li><li><a class="sidebar_archives-link" href="/categories/天梯赛/">天梯赛<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/categories/画图标/">画图标<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/算法/">算法<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/闲谈/">闲谈<span class="sidebar_archives-count">3</span></a>
             </ul>
         </li>
         
@@ -828,7 +828,7 @@ double process(double a){
         <li>
             <a href="/archives">
                 文章總數
-                <span class="sidebar-badge">27</span>
+                <span class="sidebar-badge">30</span>
             </a>
         </li>
         
