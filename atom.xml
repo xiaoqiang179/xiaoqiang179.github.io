@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-03-31T14:18:01.773Z</updated>
+  <updated>2018-04-01T06:01:20.135Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>sukou</title>
+    <title>POJ_2676_Sudoku</title>
     <link href="http://yoursite.com/2018/03/31/sukou/"/>
     <id>http://yoursite.com/2018/03/31/sukou/</id>
     <published>2018-03-31T14:16:17.000Z</published>
-    <updated>2018-03-31T14:18:01.773Z</updated>
+    <updated>2018-04-01T06:01:20.135Z</updated>
     
     <summary type="html">
     
@@ -47,11 +47,11 @@
   </entry>
   
   <entry>
-    <title>Pie~</title>
+    <title>POJ_3122_Pie</title>
     <link href="http://yoursite.com/2018/03/31/Pie/"/>
     <id>http://yoursite.com/2018/03/31/Pie/</id>
     <published>2018-03-31T14:00:05.000Z</published>
-    <updated>2018-03-31T14:14:23.682Z</updated>
+    <updated>2018-04-01T06:02:08.721Z</updated>
     
     <summary type="html">
     
@@ -79,11 +79,11 @@ int main(){
   </entry>
   
   <entry>
-    <title>dfsopt</title>
+    <title></title>
     <link href="http://yoursite.com/2018/03/28/dfsopt/"/>
     <id>http://yoursite.com/2018/03/28/dfsopt/</id>
     <published>2018-03-28T08:55:57.000Z</published>
-    <updated>2018-03-28T08:56:07.460Z</updated>
+    <updated>2018-04-01T06:04:35.037Z</updated>
     
     <summary type="html">
     
@@ -105,32 +105,6 @@ int main(){
   </entry>
   
   <entry>
-    <title>PAT_Basic_1020</title>
-    <link href="http://yoursite.com/2018/03/25/patb1020/"/>
-    <id>http://yoursite.com/2018/03/25/patb1020/</id>
-    <published>2018-03-25T15:28:42.000Z</published>
-    <updated>2018-03-25T15:34:59.860Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;排一下单利润-就解决了&quot;&gt;&lt;a href=&quot;#排一下单利润-就解决了&quot; class=&quot;headerlink&quot; title=&quot;排一下单利润,就解决了!&quot;&gt;&lt;/a&gt;排一下单利润,就解决了!&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;#include
-        
-      
-    
-    </summary>
-    
-      <category term="PAT_Basic" scheme="http://yoursite.com/categories/PAT-Basic/"/>
-    
-    
-      <category term="PAT" scheme="http://yoursite.com/tags/PAT/"/>
-    
-  </entry>
-  
-  <entry>
     <title>PAT_Basic_1010</title>
     <link href="http://yoursite.com/2018/03/25/patb1010/"/>
     <id>http://yoursite.com/2018/03/25/patb1010/</id>
@@ -145,6 +119,32 @@ int main(){
         
           &lt;h1 id=&quot;超级简单的&quot;&gt;&lt;a href=&quot;#超级简单的&quot; class=&quot;headerlink&quot; title=&quot;超级简单的&quot;&gt;&lt;/a&gt;超级简单的&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;#include &amp;lt;stdio.h&amp;gt;
 #include
+        
+      
+    
+    </summary>
+    
+      <category term="PAT_Basic" scheme="http://yoursite.com/categories/PAT-Basic/"/>
+    
+    
+      <category term="PAT" scheme="http://yoursite.com/tags/PAT/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PAT_Basic_1020</title>
+    <link href="http://yoursite.com/2018/03/25/patb1020/"/>
+    <id>http://yoursite.com/2018/03/25/patb1020/</id>
+    <published>2018-03-25T15:28:42.000Z</published>
+    <updated>2018-03-25T15:34:59.860Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;排一下单利润-就解决了&quot;&gt;&lt;a href=&quot;#排一下单利润-就解决了&quot; class=&quot;headerlink&quot; title=&quot;排一下单利润,就解决了!&quot;&gt;&lt;/a&gt;排一下单利润,就解决了!&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;#include
         
       
     
