@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-04-01T06:01:20.135Z</updated>
+  <updated>2018-04-02T13:03:43.308Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>棋盘问题_POJ_1321</title>
+    <link href="http://yoursite.com/2018/04/02/qipanwenti/"/>
+    <id>http://yoursite.com/2018/04/02/qipanwenti/</id>
+    <published>2018-04-02T13:00:46.000Z</published>
+    <updated>2018-04-02T13:03:43.308Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;pre&gt;&lt;code&gt;#include &amp;lt;stdio.h&amp;gt;
+#include &amp;lt;stdlib.h&amp;gt;
+#include &amp;lt;stdbool.h&amp;gt;
+#include &amp;lt;string.h&amp;gt;
+#include
+        
+      
+    
+    </summary>
+    
+      <category term="POJ" scheme="http://yoursite.com/categories/POJ/"/>
+    
+    
+      <category term="DFS" scheme="http://yoursite.com/tags/DFS/"/>
+    
+  </entry>
   
   <entry>
     <title>POJ_2676_Sudoku</title>
@@ -546,37 +576,6 @@ int main(){
     
     
       <category term="DFS" scheme="http://yoursite.com/tags/DFS/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PAT-Basic-1025</title>
-    <link href="http://yoursite.com/2018/02/25/patb1025/"/>
-    <id>http://yoursite.com/2018/02/25/patb1025/</id>
-    <published>2018-02-25T09:46:47.000Z</published>
-    <updated>2018-02-25T12:40:29.283Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;我的代码:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;#include &amp;lt;stdio.h&amp;gt;
-#include &amp;lt;string.h&amp;gt;
-#include &amp;lt;math.h&amp;gt;
-#include &amp;lt;stdbool.h&amp;gt;
-#include
-        
-      
-    
-    </summary>
-    
-      <category term="PAT_Basic" scheme="http://yoursite.com/categories/PAT-Basic/"/>
-    
-    
-      <category term="PAT" scheme="http://yoursite.com/tags/PAT/"/>
     
   </entry>
   
