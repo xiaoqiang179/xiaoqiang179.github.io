@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-04-02T13:03:43.308Z</updated>
+  <updated>2018-04-05T10:28:08.551Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,68 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>我第一次用c with stl做题</title>
+    <link href="http://yoursite.com/2018/04/05/firststl/"/>
+    <id>http://yoursite.com/2018/04/05/firststl/</id>
+    <published>2018-04-05T10:25:39.000Z</published>
+    <updated>2018-04-05T10:28:08.551Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;题意很简单,就是反转数字,但末尾的零不能反转.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;#include &amp;lt;string&amp;gt;
+#include &amp;lt;iostream&amp;gt;
+#include &amp;lt;algorithm&amp;gt;
+using namespace
+        
+      
+    
+    </summary>
+    
+      <category term="STL" scheme="http://yoursite.com/categories/STL/"/>
+    
+    
+      <category term="STL" scheme="http://yoursite.com/tags/STL/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>小希的迷宫_HDU_1272</title>
+    <link href="http://yoursite.com/2018/04/05/xiaoxidemg/"/>
+    <id>http://yoursite.com/2018/04/05/xiaoxidemg/</id>
+    <published>2018-04-05T10:02:24.000Z</published>
+    <updated>2018-04-05T10:04:48.080Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;pre&gt;&lt;code&gt;#include &amp;lt;stdio.h&amp;gt;
+#include &amp;lt;stdlib.h&amp;gt;
+int map[100010];
+void init(){
+    int i;
+    for(i=1;i&amp;lt;=100000;i++){
+     
+        
+      
+    
+    </summary>
+    
+      <category term="HDU" scheme="http://yoursite.com/categories/HDU/"/>
+    
+    
+      <category term="并查集" scheme="http://yoursite.com/tags/%E5%B9%B6%E6%9F%A5%E9%9B%86/"/>
+    
+  </entry>
   
   <entry>
     <title>棋盘问题_POJ_1321</title>
@@ -139,32 +201,6 @@ int main(){
   </entry>
   
   <entry>
-    <title>PAT_Basic_1020</title>
-    <link href="http://yoursite.com/2018/03/25/patb1020/"/>
-    <id>http://yoursite.com/2018/03/25/patb1020/</id>
-    <published>2018-03-25T15:28:42.000Z</published>
-    <updated>2018-03-25T15:34:59.860Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;排一下单利润-就解决了&quot;&gt;&lt;a href=&quot;#排一下单利润-就解决了&quot; class=&quot;headerlink&quot; title=&quot;排一下单利润,就解决了!&quot;&gt;&lt;/a&gt;排一下单利润,就解决了!&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;#include
-        
-      
-    
-    </summary>
-    
-      <category term="PAT_Basic" scheme="http://yoursite.com/categories/PAT-Basic/"/>
-    
-    
-      <category term="PAT" scheme="http://yoursite.com/tags/PAT/"/>
-    
-  </entry>
-  
-  <entry>
     <title>PAT_Basic_1010</title>
     <link href="http://yoursite.com/2018/03/25/patb1010/"/>
     <id>http://yoursite.com/2018/03/25/patb1010/</id>
@@ -179,6 +215,32 @@ int main(){
         
           &lt;h1 id=&quot;超级简单的&quot;&gt;&lt;a href=&quot;#超级简单的&quot; class=&quot;headerlink&quot; title=&quot;超级简单的&quot;&gt;&lt;/a&gt;超级简单的&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;#include &amp;lt;stdio.h&amp;gt;
 #include
+        
+      
+    
+    </summary>
+    
+      <category term="PAT_Basic" scheme="http://yoursite.com/categories/PAT-Basic/"/>
+    
+    
+      <category term="PAT" scheme="http://yoursite.com/tags/PAT/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PAT_Basic_1020</title>
+    <link href="http://yoursite.com/2018/03/25/patb1020/"/>
+    <id>http://yoursite.com/2018/03/25/patb1020/</id>
+    <published>2018-03-25T15:28:42.000Z</published>
+    <updated>2018-03-25T15:34:59.860Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;排一下单利润-就解决了&quot;&gt;&lt;a href=&quot;#排一下单利润-就解决了&quot; class=&quot;headerlink&quot; title=&quot;排一下单利润,就解决了!&quot;&gt;&lt;/a&gt;排一下单利润,就解决了!&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;#include
         
       
     
@@ -514,68 +576,6 @@ int main(){
     
     
       <category term="算法" scheme="http://yoursite.com/tags/%E7%AE%97%E6%B3%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>POJ-1562-Oil-Deposits</title>
-    <link href="http://yoursite.com/2018/02/26/POJ-1562-Oil-Deposits/"/>
-    <id>http://yoursite.com/2018/02/26/POJ-1562-Oil-Deposits/</id>
-    <published>2018-02-26T09:18:10.000Z</published>
-    <updated>2018-03-23T12:49:01.553Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;我的代码:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;#include &amp;lt;stdio.h&amp;gt;
-#include &amp;lt;string.h&amp;gt;
-#include &amp;lt;math.h&amp;gt;
-#include &amp;lt;stdbool.h&amp;gt;
-#include
-        
-      
-    
-    </summary>
-    
-      <category term="POJ" scheme="http://yoursite.com/categories/POJ/"/>
-    
-    
-      <category term="BFS" scheme="http://yoursite.com/tags/BFS/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>HDU-1016-Prime-Ring-Problem</title>
-    <link href="http://yoursite.com/2018/02/26/Prime-Ring-Problem/"/>
-    <id>http://yoursite.com/2018/02/26/Prime-Ring-Problem/</id>
-    <published>2018-02-26T08:35:37.000Z</published>
-    <updated>2018-02-26T08:40:03.713Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;我的代码:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;#include &amp;lt;stdio.h&amp;gt;
-#include &amp;lt;string.h&amp;gt;
-#include &amp;lt;math.h&amp;gt;
-#include &amp;lt;stdbool.h&amp;gt;
-#include
-        
-      
-    
-    </summary>
-    
-      <category term="HDU" scheme="http://yoursite.com/categories/HDU/"/>
-    
-    
-      <category term="DFS" scheme="http://yoursite.com/tags/DFS/"/>
     
   </entry>
   
