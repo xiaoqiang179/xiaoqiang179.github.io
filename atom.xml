@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-04-05T10:28:08.551Z</updated>
+  <updated>2018-04-14T13:01:29.001Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,68 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>HDU_1263_水果</title>
+    <link href="http://yoursite.com/2018/04/14/maishuiguo/"/>
+    <id>http://yoursite.com/2018/04/14/maishuiguo/</id>
+    <published>2018-04-14T12:58:43.000Z</published>
+    <updated>2018-04-14T13:01:29.001Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;pre&gt;&lt;code&gt;#include &amp;lt;stdio.h&amp;gt;
+#include &amp;lt;string.h&amp;gt;
+#include &amp;lt;math.h&amp;gt;
+#include &amp;lt;stdbool.h&amp;gt;
+#include
+        
+      
+    
+    </summary>
+    
+      <category term="HDU" scheme="http://yoursite.com/categories/HDU/"/>
+    
+    
+      <category term="结构体排序" scheme="http://yoursite.com/tags/%E7%BB%93%E6%9E%84%E4%BD%93%E6%8E%92%E5%BA%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HDU_1004_Let the Balloon Rise</title>
+    <link href="http://yoursite.com/2018/04/14/letballoonrise/"/>
+    <id>http://yoursite.com/2018/04/14/letballoonrise/</id>
+    <published>2018-04-14T12:53:26.000Z</published>
+    <updated>2018-04-14T12:57:29.173Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;pre&gt;&lt;code&gt;#include &amp;lt;iostream&amp;gt;
+#include &amp;lt;map&amp;gt;
+#include &amp;lt;string&amp;gt;
+using namespace std;
+int main(){
+    int n,i;
+   
+        
+      
+    
+    </summary>
+    
+      <category term="HDU" scheme="http://yoursite.com/categories/HDU/"/>
+    
+    
+      <category term="STL" scheme="http://yoursite.com/tags/STL/"/>
+    
+  </entry>
   
   <entry>
     <title>我第一次用c with stl做题</title>
@@ -201,6 +263,32 @@ int main(){
   </entry>
   
   <entry>
+    <title>PAT_Basic_1020</title>
+    <link href="http://yoursite.com/2018/03/25/patb1020/"/>
+    <id>http://yoursite.com/2018/03/25/patb1020/</id>
+    <published>2018-03-25T15:28:42.000Z</published>
+    <updated>2018-03-25T15:34:59.860Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;排一下单利润-就解决了&quot;&gt;&lt;a href=&quot;#排一下单利润-就解决了&quot; class=&quot;headerlink&quot; title=&quot;排一下单利润,就解决了!&quot;&gt;&lt;/a&gt;排一下单利润,就解决了!&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;#include
+        
+      
+    
+    </summary>
+    
+      <category term="PAT_Basic" scheme="http://yoursite.com/categories/PAT-Basic/"/>
+    
+    
+      <category term="PAT" scheme="http://yoursite.com/tags/PAT/"/>
+    
+  </entry>
+  
+  <entry>
     <title>PAT_Basic_1010</title>
     <link href="http://yoursite.com/2018/03/25/patb1010/"/>
     <id>http://yoursite.com/2018/03/25/patb1010/</id>
@@ -215,32 +303,6 @@ int main(){
         
           &lt;h1 id=&quot;超级简单的&quot;&gt;&lt;a href=&quot;#超级简单的&quot; class=&quot;headerlink&quot; title=&quot;超级简单的&quot;&gt;&lt;/a&gt;超级简单的&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;#include &amp;lt;stdio.h&amp;gt;
 #include
-        
-      
-    
-    </summary>
-    
-      <category term="PAT_Basic" scheme="http://yoursite.com/categories/PAT-Basic/"/>
-    
-    
-      <category term="PAT" scheme="http://yoursite.com/tags/PAT/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PAT_Basic_1020</title>
-    <link href="http://yoursite.com/2018/03/25/patb1020/"/>
-    <id>http://yoursite.com/2018/03/25/patb1020/</id>
-    <published>2018-03-25T15:28:42.000Z</published>
-    <updated>2018-03-25T15:34:59.860Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;排一下单利润-就解决了&quot;&gt;&lt;a href=&quot;#排一下单利润-就解决了&quot; class=&quot;headerlink&quot; title=&quot;排一下单利润,就解决了!&quot;&gt;&lt;/a&gt;排一下单利润,就解决了!&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;#include
         
       
     
@@ -521,61 +583,6 @@ int main(){
     
     
       <category term="PAT" scheme="http://yoursite.com/tags/PAT/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>printf和scanf注意⚠️</title>
-    <link href="http://yoursite.com/2018/02/27/about-scanf-printf/"/>
-    <id>http://yoursite.com/2018/02/27/about-scanf-printf/</id>
-    <published>2018-02-27T05:43:56.000Z</published>
-    <updated>2018-02-27T09:44:10.740Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;首先说scanf&quot;&gt;&lt;a href=&quot;#首先说scanf&quot; class=&quot;headerlink&quot; title=&quot;首先说scanf&quot;&gt;&lt;/a&gt;首先说scanf&lt;/h1&gt;&lt;p&gt;函数原型:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;​int scanf( const char
-        
-      
-    
-    </summary>
-    
-      <category term="C语言" scheme="http://yoursite.com/categories/C%E8%AF%AD%E8%A8%80/"/>
-    
-    
-      <category term="C语言" scheme="http://yoursite.com/tags/C%E8%AF%AD%E8%A8%80/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>POJ-3984-迷宫问题</title>
-    <link href="http://yoursite.com/2018/02/26/POJ-3984-labyrinth-problem/"/>
-    <id>http://yoursite.com/2018/02/26/POJ-3984-labyrinth-problem/</id>
-    <published>2018-02-26T09:40:11.000Z</published>
-    <updated>2018-04-01T13:01:24.573Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;我的代码:&lt;/p&gt;
-&lt;h2 id=&quot;DFS&quot;&gt;&lt;a href=&quot;#DFS&quot; class=&quot;headerlink&quot; title=&quot;DFS:&quot;&gt;&lt;/a&gt;DFS:&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;#include &amp;lt;stdio.h&amp;gt;
-#include
-        
-      
-    
-    </summary>
-    
-      <category term="POJ" scheme="http://yoursite.com/categories/POJ/"/>
-    
-    
-      <category term="算法" scheme="http://yoursite.com/tags/%E7%AE%97%E6%B3%95/"/>
     
   </entry>
   
