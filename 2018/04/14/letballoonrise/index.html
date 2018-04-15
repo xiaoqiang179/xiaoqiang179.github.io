@@ -250,7 +250,7 @@
 
     
         <meta property="article:published_time" content="Sat Apr 14 2018 20:53:26 GMT+0800">
-        <meta property="article:modified_time" content="Sat Apr 14 2018 20:57:29 GMT+0800">
+        <meta property="article:modified_time" content="Sun Apr 15 2018 21:17:01 GMT+0800">
     
 
     <!-- The Twitter Card protocol -->
@@ -273,7 +273,7 @@
     "mainEntityOfPage": "http://yoursite.com/2018/04/14/letballoonrise/index.html",
     "headline": "HDU_1004_Let the Balloon Rise",
     "datePublished": "Sat Apr 14 2018 20:53:26 GMT+0800",
-    "dateModified": "Sat Apr 14 2018 20:57:29 GMT+0800",
+    "dateModified": "Sun Apr 15 2018 21:17:01 GMT+0800",
     "author": {
         "@type": "Person",
         "name": "Jack Sun",
@@ -493,6 +493,39 @@
                 <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
     
         <pre><code>#include &lt;iostream&gt;
+#include &lt;vector&gt;
+#include &lt;queue&gt;
+#include &lt;string&gt;
+#include &lt;map&gt;
+#include &lt;algorithm&gt;
+#include &lt;cstring&gt;
+#include &lt;cstdio&gt;
+using namespace std;
+int main(){
+    int n;
+    while(cin&gt;&gt;n){
+        map&lt;string,int&gt; mp;
+        int max=0;
+        string maxs;
+        if(n==0){
+            break;
+        }
+        while (n--) {
+            string temp;
+            cin&gt;&gt;temp;
+            mp[temp]++;
+            int temp1=mp[temp];
+            if(temp1&gt;max){
+                max=temp1;
+                maxs=temp;
+            }
+        }
+        cout&lt;&lt;maxs&lt;&lt;endl;
+    }
+    return 0;
+}
+</code></pre><p>输入之后直接和最大之比较即可,下面的方法有些笨拙.</p>
+<pre><code>#include &lt;iostream&gt;
 #include &lt;map&gt;
 #include &lt;string&gt;
 using namespace std;

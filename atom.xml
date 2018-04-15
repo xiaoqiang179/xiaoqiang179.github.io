@@ -51,7 +51,7 @@
     <link href="http://yoursite.com/2018/04/14/letballoonrise/"/>
     <id>http://yoursite.com/2018/04/14/letballoonrise/</id>
     <published>2018-04-14T12:53:26.000Z</published>
-    <updated>2018-04-14T12:57:29.173Z</updated>
+    <updated>2018-04-15T13:17:01.994Z</updated>
     
     <summary type="html">
     
@@ -60,12 +60,11 @@
         
         
           &lt;pre&gt;&lt;code&gt;#include &amp;lt;iostream&amp;gt;
-#include &amp;lt;map&amp;gt;
+#include &amp;lt;vector&amp;gt;
+#include &amp;lt;queue&amp;gt;
 #include &amp;lt;string&amp;gt;
-using namespace std;
-int main(){
-    int n,i;
-   
+#include &amp;lt;map&amp;gt;
+#include
         
       
     
