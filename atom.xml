@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-04-14T13:01:29.001Z</updated>
+  <updated>2018-04-22T03:25:36.543Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Rescue_HDU_1242</title>
+    <link href="http://yoursite.com/2018/04/22/hdu1242/"/>
+    <id>http://yoursite.com/2018/04/22/hdu1242/</id>
+    <published>2018-04-22T03:21:45.000Z</published>
+    <updated>2018-04-22T03:25:36.543Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;换了好几次思路,终于~&lt;br&gt;这道题做要用逆向思维,从a找r,深搜即可,广搜会有bug&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;#include &amp;lt;stdio.h&amp;gt;
+#include &amp;lt;stdlib.h&amp;gt;
+#include
+        
+      
+    
+    </summary>
+    
+      <category term="HDU" scheme="http://yoursite.com/categories/HDU/"/>
+    
+    
+      <category term="DFS" scheme="http://yoursite.com/tags/DFS/"/>
+    
+  </entry>
   
   <entry>
     <title>HDU_1263_水果</title>
@@ -262,32 +291,6 @@ int main(){
   </entry>
   
   <entry>
-    <title>PAT_Basic_1020</title>
-    <link href="http://yoursite.com/2018/03/25/patb1020/"/>
-    <id>http://yoursite.com/2018/03/25/patb1020/</id>
-    <published>2018-03-25T15:28:42.000Z</published>
-    <updated>2018-03-25T15:34:59.860Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;排一下单利润-就解决了&quot;&gt;&lt;a href=&quot;#排一下单利润-就解决了&quot; class=&quot;headerlink&quot; title=&quot;排一下单利润,就解决了!&quot;&gt;&lt;/a&gt;排一下单利润,就解决了!&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;#include
-        
-      
-    
-    </summary>
-    
-      <category term="PAT_Basic" scheme="http://yoursite.com/categories/PAT-Basic/"/>
-    
-    
-      <category term="PAT" scheme="http://yoursite.com/tags/PAT/"/>
-    
-  </entry>
-  
-  <entry>
     <title>PAT_Basic_1010</title>
     <link href="http://yoursite.com/2018/03/25/patb1010/"/>
     <id>http://yoursite.com/2018/03/25/patb1010/</id>
@@ -302,6 +305,32 @@ int main(){
         
           &lt;h1 id=&quot;超级简单的&quot;&gt;&lt;a href=&quot;#超级简单的&quot; class=&quot;headerlink&quot; title=&quot;超级简单的&quot;&gt;&lt;/a&gt;超级简单的&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;#include &amp;lt;stdio.h&amp;gt;
 #include
+        
+      
+    
+    </summary>
+    
+      <category term="PAT_Basic" scheme="http://yoursite.com/categories/PAT-Basic/"/>
+    
+    
+      <category term="PAT" scheme="http://yoursite.com/tags/PAT/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PAT_Basic_1020</title>
+    <link href="http://yoursite.com/2018/03/25/patb1020/"/>
+    <id>http://yoursite.com/2018/03/25/patb1020/</id>
+    <published>2018-03-25T15:28:42.000Z</published>
+    <updated>2018-03-25T15:34:59.860Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;排一下单利润-就解决了&quot;&gt;&lt;a href=&quot;#排一下单利润-就解决了&quot; class=&quot;headerlink&quot; title=&quot;排一下单利润,就解决了!&quot;&gt;&lt;/a&gt;排一下单利润,就解决了!&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;#include
         
       
     
@@ -551,37 +580,6 @@ int main(){
     
     
       <category term="闲谈" scheme="http://yoursite.com/tags/%E9%97%B2%E8%B0%88/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PAT_Basic_1030</title>
-    <link href="http://yoursite.com/2018/03/02/patb1030/"/>
-    <id>http://yoursite.com/2018/03/02/patb1030/</id>
-    <published>2018-03-01T17:05:29.000Z</published>
-    <updated>2018-03-01T17:19:54.741Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;我的代码:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;#include &amp;lt;stdio.h&amp;gt;
-#include &amp;lt;string.h&amp;gt;
-#include &amp;lt;math.h&amp;gt;
-#include &amp;lt;stdbool.h&amp;gt;
-#include
-        
-      
-    
-    </summary>
-    
-      <category term="PAT_Basic" scheme="http://yoursite.com/categories/PAT-Basic/"/>
-    
-    
-      <category term="PAT" scheme="http://yoursite.com/tags/PAT/"/>
     
   </entry>
   
