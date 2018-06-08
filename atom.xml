@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-05-23T01:55:07.485Z</updated>
+  <updated>2018-06-08T13:25:44.088Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Pots_POJ_3414</title>
+    <link href="http://yoursite.com/2018/06/08/poj3414/"/>
+    <id>http://yoursite.com/2018/06/08/poj3414/</id>
+    <published>2018-06-08T13:09:08.000Z</published>
+    <updated>2018-06-08T13:25:44.088Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;a href=&quot;http://poj.org/problem?id=3414&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;题目链接&lt;/a&gt;&lt;/p&gt;
+&lt;h2
+        
+      
+    
+    </summary>
+    
+      <category term="POJ" scheme="http://yoursite.com/categories/POJ/"/>
+    
+    
+      <category term="广搜输出路径" scheme="http://yoursite.com/tags/%E5%B9%BF%E6%90%9C%E8%BE%93%E5%87%BA%E8%B7%AF%E5%BE%84/"/>
+    
+  </entry>
   
   <entry>
     <title>Curling 2.0_POJ3009</title>
@@ -318,6 +345,32 @@ int main(){
   </entry>
   
   <entry>
+    <title>PAT_Basic_1020</title>
+    <link href="http://yoursite.com/2018/03/25/patb1020/"/>
+    <id>http://yoursite.com/2018/03/25/patb1020/</id>
+    <published>2018-03-25T15:28:42.000Z</published>
+    <updated>2018-03-25T15:34:59.860Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;排一下单利润-就解决了&quot;&gt;&lt;a href=&quot;#排一下单利润-就解决了&quot; class=&quot;headerlink&quot; title=&quot;排一下单利润,就解决了!&quot;&gt;&lt;/a&gt;排一下单利润,就解决了!&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;#include
+        
+      
+    
+    </summary>
+    
+      <category term="PAT_Basic" scheme="http://yoursite.com/categories/PAT-Basic/"/>
+    
+    
+      <category term="PAT" scheme="http://yoursite.com/tags/PAT/"/>
+    
+  </entry>
+  
+  <entry>
     <title>PAT_Basic_1010</title>
     <link href="http://yoursite.com/2018/03/25/patb1010/"/>
     <id>http://yoursite.com/2018/03/25/patb1010/</id>
@@ -332,32 +385,6 @@ int main(){
         
           &lt;h1 id=&quot;超级简单的&quot;&gt;&lt;a href=&quot;#超级简单的&quot; class=&quot;headerlink&quot; title=&quot;超级简单的&quot;&gt;&lt;/a&gt;超级简单的&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;#include &amp;lt;stdio.h&amp;gt;
 #include
-        
-      
-    
-    </summary>
-    
-      <category term="PAT_Basic" scheme="http://yoursite.com/categories/PAT-Basic/"/>
-    
-    
-      <category term="PAT" scheme="http://yoursite.com/tags/PAT/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PAT_Basic_1020</title>
-    <link href="http://yoursite.com/2018/03/25/patb1020/"/>
-    <id>http://yoursite.com/2018/03/25/patb1020/</id>
-    <published>2018-03-25T15:28:42.000Z</published>
-    <updated>2018-03-25T15:34:59.860Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;排一下单利润-就解决了&quot;&gt;&lt;a href=&quot;#排一下单利润-就解决了&quot; class=&quot;headerlink&quot; title=&quot;排一下单利润,就解决了!&quot;&gt;&lt;/a&gt;排一下单利润,就解决了!&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;#include
         
       
     
@@ -551,36 +578,6 @@ int main(){
     
     
       <category term="并查集" scheme="http://yoursite.com/tags/%E5%B9%B6%E6%9F%A5%E9%9B%86/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>L2-022-重排链表</title>
-    <link href="http://yoursite.com/2018/03/12/rerangelinkedlist/"/>
-    <id>http://yoursite.com/2018/03/12/rerangelinkedlist/</id>
-    <published>2018-03-12T10:39:45.000Z</published>
-    <updated>2018-03-12T10:50:47.218Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;这道题与pat乙级中的那两道链表题差不多,首先放出代码:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;#include &amp;lt;stdio.h&amp;gt;
-#include &amp;lt;stdlib.h&amp;gt;
-#include &amp;lt;stdbool.h&amp;gt;
-#include
-        
-      
-    
-    </summary>
-    
-      <category term="天梯赛" scheme="http://yoursite.com/categories/%E5%A4%A9%E6%A2%AF%E8%B5%9B/"/>
-    
-    
-      <category term="算法" scheme="http://yoursite.com/tags/%E7%AE%97%E6%B3%95/"/>
     
   </entry>
   

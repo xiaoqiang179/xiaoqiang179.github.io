@@ -45,7 +45,7 @@
     
     <title>
         
-            L2-022-重排链表 | 
+            Pots_POJ_3414 | 
         
         小強的博客
     </title>
@@ -56,7 +56,7 @@
 
     <meta name="format-detection" content="telephone=no"/>
     <meta name="description" itemprop="description" content="算法,PAT,and more~">
-    <meta name="keywords" content=",算法">
+    <meta name="keywords" content=",广搜输出路径">
     <meta name="theme-color" content="#0097A7">
 
     <!-- Disable Fucking Bloody Baidu Tranformation -->
@@ -222,7 +222,7 @@
     <!-- WebAPP Icons -->
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="application-name" content="小強的博客">
-    <meta name="msapplication-starturl" content="http://yoursite.com/2018/03/12/rerangelinkedlist/">
+    <meta name="msapplication-starturl" content="http://yoursite.com/2018/06/08/poj3414/">
     <meta name="msapplication-navbutton-color" content="#0097A7">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-title" content="小強的博客">
@@ -241,16 +241,16 @@
     
 
     <!-- The Open Graph protocol -->
-    <meta property="og:url" content="http://yoursite.com/2018/03/12/rerangelinkedlist/">
+    <meta property="og:url" content="http://yoursite.com/2018/06/08/poj3414/">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="L2-022-重排链表 | 小強的博客">
+    <meta property="og:title" content="Pots_POJ_3414 | 小強的博客">
     <meta property="og:image" content="/img/facico.png">
     <meta property="og:description" content="算法,PAT,and more~">
-    <meta property="og:article:tag" content="算法"> 
+    <meta property="og:article:tag" content="广搜输出路径"> 
 
     
-        <meta property="article:published_time" content="Mon Mar 12 2018 18:39:45 GMT+0800">
-        <meta property="article:modified_time" content="Mon Mar 12 2018 18:50:47 GMT+0800">
+        <meta property="article:published_time" content="Fri Jun 08 2018 21:09:08 GMT+0800">
+        <meta property="article:modified_time" content="Fri Jun 08 2018 21:25:44 GMT+0800">
     
 
     <!-- The Twitter Card protocol -->
@@ -258,7 +258,7 @@
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="http://yoursite.com/2018/03/12/rerangelinkedlist/index.html" />
+        <link rel="canonical" href="http://yoursite.com/2018/06/08/poj3414/index.html" />
     
 
     <!-- Structured-data for SEO -->
@@ -270,10 +270,10 @@
 {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
-    "mainEntityOfPage": "http://yoursite.com/2018/03/12/rerangelinkedlist/index.html",
-    "headline": "L2-022-重排链表",
-    "datePublished": "Mon Mar 12 2018 18:39:45 GMT+0800",
-    "dateModified": "Mon Mar 12 2018 18:50:47 GMT+0800",
+    "mainEntityOfPage": "http://yoursite.com/2018/06/08/poj3414/index.html",
+    "headline": "Pots_POJ_3414",
+    "datePublished": "Fri Jun 08 2018 21:09:08 GMT+0800",
+    "dateModified": "Fri Jun 08 2018 21:25:44 GMT+0800",
     "author": {
         "@type": "Person",
         "name": "Jack Sun",
@@ -291,7 +291,7 @@
             "url": "/img/facico.png"
         }
     },
-    "keywords": ",算法",
+    "keywords": ",广搜输出路径",
     "description": "算法,PAT,and more~",
 }
 </script>
@@ -364,7 +364,7 @@
     </button>
 
     <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
-        <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#😤"><span class="post-toc-number">1.</span> <span class="post-toc-text">😤</span></a></li></ol>
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#题目大意-给两个杯子-和一个目标量-问是否通过那两个杯子互相倒水倒得目标量的水-给三种操作如下"><span class="post-toc-number">1.</span> <span class="post-toc-text">题目大意:给两个杯子,和一个目标量,问是否通过那两个杯子互相倒水倒得目标量的水,给三种操作如下:</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#不翻译了😂"><span class="post-toc-number">1.1.</span> <span class="post-toc-text">不翻译了😂</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#搜索的过程不说了-说说输出-我们知道广搜的特点就是每走一步就可能通过当前步延伸出多步-若我们通过父节点纪录子节点的方式就行不通了-这里的父节点指的是先走的步-子节点是先走的步扩展出来的步-所以我们要使子节点纪录父节点-因为一个子节点只有一个父节点-那如何记录呢-我采用的是数组的方式-每一个节点对应一个数组下标rec-j-数组是一个二维数组-rec-j-0-代表父节点的下标-rec-j-1-对应当前步的操作-还要注意我设定的当作开始的节点的节点的父节点是0-那么数组下标0就不能对应操作了-那么我就让控制数组下标的变量从1开始-这样也就找到了输出时的出口-输出时就按这样输出就可以了"><span class="post-toc-number">1.2.</span> <span class="post-toc-text">搜索的过程不说了,说说输出,我们知道广搜的特点就是每走一步就可能通过当前步延伸出多步,若我们通过父节点纪录子节点的方式就行不通了(这里的父节点指的是先走的步,子节点是先走的步扩展出来的步),所以我们要使子节点纪录父节点,因为一个子节点只有一个父节点,那如何记录呢,我采用的是数组的方式,每一个节点对应一个数组下标rec[j],数组是一个二维数组,rec[j][0]代表父节点的下标,rec[j][1]对应当前步的操作,还要注意我设定的当作开始的节点的节点的父节点是0,那么数组下标0就不能对应操作了,那么我就让控制数组下标的变量从1开始,这样也就找到了输出时的出口,输出时就按这样输出就可以了:</span></a></li></ol></li></ol>
     </ul>
     
 
@@ -396,7 +396,7 @@
         
     
             <p class="article-headline-p">
-                L2-022-重排链表
+                Pots_POJ_3414
             </p>
         </div>
 
@@ -415,7 +415,7 @@
     <!-- Author Name & Date -->
     <div>
         <strong>Jack Sun</strong>
-        <span>3月 12, 2018</span>
+        <span>6月 08, 2018</span>
     </div>
 
     <div class="section-spacer"></div>
@@ -439,7 +439,7 @@
     </button>
     <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
         <li class="mdl-menu__item">
-        <a class="post_tag-link" href="/tags/算法/">算法</a>
+        <a class="post_tag-link" href="/tags/广搜输出路径/">广搜输出路径</a>
     </ul>
     
 
@@ -467,7 +467,7 @@
 
     <!-- Share Weibo -->
     
-        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=L2-022-重排链表&url=http://yoursite.com/2018/03/12/rerangelinkedlist/index.html&pic=http://yoursite.com/img/facico.png&searchPic=false&style=simple" target="_blank">
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=Pots_POJ_3414&url=http://yoursite.com/2018/06/08/poj3414/index.html&pic=http://yoursite.com/img/facico.png&searchPic=false&style=simple" target="_blank">
             <li class="mdl-menu__item">
                 分享到微博
             </li>
@@ -501,64 +501,205 @@
                 <!-- Post Content -->
                 <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
     
-        <p>这道题与pat乙级中的那两道链表题差不多,首先放出代码:</p>
-<pre><code>#include &lt;stdio.h&gt;
-#include &lt;stdlib.h&gt;
-#include &lt;stdbool.h&gt;
-#include &lt;math.h&gt;
-#include &lt;string.h&gt;
-struct node{
-    int add;
-    int data;
-};
-int main(){
-    int n,head,next;
-    int temp[100000][2];
-    struct node in[100000];
-    scanf(&quot;%d%d&quot;,&amp;head,&amp;n);
-    int i;
-    for(i=0;i&lt;n;i++){
-        int temp1,temp2,temp3;
-        scanf(&quot;%d%d%d&quot;,&amp;temp1,&amp;temp2,&amp;temp3);
-        temp[temp1][0]=temp2;
-        temp[temp1][1]=temp3;
-    } 
-    next=head;
-    i=0;
-    while(next!=-1){
-        in[i].add=next;
-        in[i].data=temp[next][0];
-        i++;
-        next=temp[next][1];
+        <p><a href="http://poj.org/problem?id=3414" target="_blank" rel="noopener">题目链接</a></p>
+<h2 id="题目大意-给两个杯子-和一个目标量-问是否通过那两个杯子互相倒水倒得目标量的水-给三种操作如下"><a href="#题目大意-给两个杯子-和一个目标量-问是否通过那两个杯子互相倒水倒得目标量的水-给三种操作如下" class="headerlink" title="题目大意:给两个杯子,和一个目标量,问是否通过那两个杯子互相倒水倒得目标量的水,给三种操作如下:"></a>题目大意:给两个杯子,和一个目标量,问是否通过那两个杯子互相倒水倒得目标量的水,给三种操作如下:</h2><pre><code>FILL(i)-&gt;fill the pot i (1 ≤ i ≤ 2) from the tap;
+DROP(i)-&gt; empty the pot i to the drain;
+POUR(i,j)-&gt;pour from pot i to pot j; after this
+operation either the pot j is full (and there may be
+some water left in the pot i), or the pot i is empty
+(and all its contents have been moved to the pot j).
+</code></pre><h3 id="不翻译了😂"><a href="#不翻译了😂" class="headerlink" title="不翻译了😂"></a>不翻译了😂</h3><h3 id="搜索的过程不说了-说说输出-我们知道广搜的特点就是每走一步就可能通过当前步延伸出多步-若我们通过父节点纪录子节点的方式就行不通了-这里的父节点指的是先走的步-子节点是先走的步扩展出来的步-所以我们要使子节点纪录父节点-因为一个子节点只有一个父节点-那如何记录呢-我采用的是数组的方式-每一个节点对应一个数组下标rec-j-数组是一个二维数组-rec-j-0-代表父节点的下标-rec-j-1-对应当前步的操作-还要注意我设定的当作开始的节点的节点的父节点是0-那么数组下标0就不能对应操作了-那么我就让控制数组下标的变量从1开始-这样也就找到了输出时的出口-输出时就按这样输出就可以了"><a href="#搜索的过程不说了-说说输出-我们知道广搜的特点就是每走一步就可能通过当前步延伸出多步-若我们通过父节点纪录子节点的方式就行不通了-这里的父节点指的是先走的步-子节点是先走的步扩展出来的步-所以我们要使子节点纪录父节点-因为一个子节点只有一个父节点-那如何记录呢-我采用的是数组的方式-每一个节点对应一个数组下标rec-j-数组是一个二维数组-rec-j-0-代表父节点的下标-rec-j-1-对应当前步的操作-还要注意我设定的当作开始的节点的节点的父节点是0-那么数组下标0就不能对应操作了-那么我就让控制数组下标的变量从1开始-这样也就找到了输出时的出口-输出时就按这样输出就可以了" class="headerlink" title="搜索的过程不说了,说说输出,我们知道广搜的特点就是每走一步就可能通过当前步延伸出多步,若我们通过父节点纪录子节点的方式就行不通了(这里的父节点指的是先走的步,子节点是先走的步扩展出来的步),所以我们要使子节点纪录父节点,因为一个子节点只有一个父节点,那如何记录呢,我采用的是数组的方式,每一个节点对应一个数组下标rec[j],数组是一个二维数组,rec[j][0]代表父节点的下标,rec[j][1]对应当前步的操作,还要注意我设定的当作开始的节点的节点的父节点是0,那么数组下标0就不能对应操作了,那么我就让控制数组下标的变量从1开始,这样也就找到了输出时的出口,输出时就按这样输出就可以了:"></a>搜索的过程不说了,说说输出,我们知道广搜的特点就是每走一步就可能通过当前步延伸出多步,若我们通过父节点纪录子节点的方式就行不通了(这里的父节点指的是先走的步,子节点是先走的步扩展出来的步),所以我们要使子节点纪录父节点,因为一个子节点只有一个父节点,那如何记录呢,我采用的是数组的方式,每一个节点对应一个数组下标rec[j],数组是一个二维数组,rec[j][0]代表父节点的下标,rec[j][1]对应当前步的操作,还要注意我设定的当作开始的节点的节点的父节点是0,那么数组下标0就不能对应操作了,那么我就让控制数组下标的变量从1开始,这样也就找到了输出时的出口,输出时就按这样输出就可以了:</h3><pre><code>void print(int a){
+    if(a==0){.  //下标0就结束
+        return;
     }
-    n=i;
-    int z=0,f=n-1;
-    for(i=1;i&lt;=n;i++){
-        if(i!=n){
-            if(i%2==0){
-                printf(&quot;%05d %d %05d\n&quot;,in[z].add,in[z].data,in[f].add);
-                z++;
+    print(rec[a][0]);
+    switch (rec[a][1]) {
+        case 0:printf(&quot;FILL(1)\n&quot;);break;
+        case 1:printf(&quot;FILL(2)\n&quot;);break;
+        case 2:printf(&quot;DROP(1)\n&quot;);break;
+        case 3:printf(&quot;DROP(2)\n&quot;);break;
+        case 4:printf(&quot;POUR(1,2)\n&quot;);break;
+        case 5:printf(&quot;POUR(2,1)\n&quot;);break;
+    }
+    return;
+}
+</code></pre><p>代码:</p>
+<pre><code>#include &lt;iostream&gt;
+#include &lt;string&gt;
+#include &lt;algorithm&gt;
+#include &lt;queue&gt;
+#include &lt;cstdio&gt;
+#include &lt;cstdlib&gt;
+#include &lt;cstring&gt;
+using namespace std;
+struct node{
+    int a,b,step,self;
+};
+int rec[10000][2]={0},j=1;
+void print(int a){
+    if(a==0){
+        return;
+    }
+    print(rec[a][0]);
+    switch (rec[a][1]) {
+        case 0:printf(&quot;FILL(1)\n&quot;);break;
+        case 1:printf(&quot;FILL(2)\n&quot;);break;
+        case 2:printf(&quot;DROP(1)\n&quot;);break;
+        case 3:printf(&quot;DROP(2)\n&quot;);break;
+        case 4:printf(&quot;POUR(1,2)\n&quot;);break;
+        case 5:printf(&quot;POUR(2,1)\n&quot;);break;
+    }
+    return;
+}
+int main(){
+    int ca,cb,tar,i,flag=0,ok=0;
+    int walked[120][120]={0};//a b
+    cin&gt;&gt;ca&gt;&gt;cb&gt;&gt;tar;
+    queue&lt;node&gt; q;
+    node temp;
+    temp.a=0;
+    temp.b=0;
+    temp.step=0;
+    temp.self=0;
+    q.push(temp);
+    while(!q.empty()){
+        for(i=0;i&lt;6;i++){
+            if(i==0){  //fill a
+                temp.a=ca;
+                temp.b=q.front().b;
+                temp.step=q.front().step+1;
+                temp.self=j;
+                if(walked[temp.a][temp.b]==0){
+                    rec[j][0]=q.front().self;
+                    rec[j][1]=0;
+                    j++;
+                    walked[temp.a][temp.b]=1;
+                    q.push(temp);
+                }
+                if(temp.a==tar||temp.b==tar){
+                    flag=1;
+                    ok=q.front().step+1;
+                    break;
+                }
             }
-            else{
-                printf(&quot;%05d %d %05d\n&quot;,in[f].add,in[f].data,in[z].add);
-                f--;
+            if(i==1){  //fill b
+                temp.a=q.front().a;
+                temp.b=cb;
+                temp.step=q.front().step+1;
+                temp.self=j;
+                if(walked[temp.a][temp.b]==0){
+                    rec[j][0]=q.front().self;
+                    rec[j][1]=1;
+                    j++;
+                    walked[temp.a][temp.b]=1;
+                    q.push(temp);
+                }
+                if(temp.a==tar||temp.b==tar){
+                    flag=1;
+                    ok=q.front().step+1;
+                    break;
+                }
+            }
+            if(i==2){       //drop a
+                temp.a=0;
+                temp.b=q.front().b;
+                temp.step=q.front().step+1;
+                temp.self=j;
+                if(walked[temp.a][temp.b]==0){
+                    rec[j][0]=q.front().self;
+                    rec[j][1]=2;
+                    j++;
+                    walked[temp.a][temp.b]=1;
+                    q.push(temp);
+                }
+                if(temp.a==tar||temp.b==tar){
+                    flag=1;
+                    ok=q.front().step+1;
+                    break;
+                }
+            }
+            if(i==3){       //drop b
+                temp.a=q.front().a;
+                temp.b=0;
+                temp.step=q.front().step+1;
+                temp.self=j;
+                if(walked[temp.a][temp.b]==0){
+                    rec[j][0]=q.front().self;
+                    rec[j][1]=3;
+                    j++;
+                    walked[temp.a][temp.b]=1;
+                    q.push(temp);
+                }
+                if(temp.a==tar||temp.b==tar){
+                    flag=1;
+                    ok=q.front().step+1;
+                    break;
+                }
+            }
+            if(i==4){  //pour a-&gt;b
+                if(cb-q.front().b&gt;=q.front().a){   //a was empty
+                    temp.a=0;
+                    temp.b=q.front().a+q.front().b;
+                }
+                else{         //b was full
+                    temp.a=q.front().a-(cb-q.front().b);
+                    temp.b=cb;
+                }
+                temp.step=q.front().step+1;
+                temp.self=j;
+                if(walked[temp.a][temp.b]==0){
+                    rec[j][0]=q.front().self;
+                    rec[j][1]=4;
+                    j++;
+                    walked[temp.a][temp.b]=1;
+                    q.push(temp);
+                }
+                if(temp.a==tar||temp.b==tar){
+                    flag=1;
+                    ok=q.front().step+1;
+                    break;
+                }
+            }
+            if(i==5){   //b-&gt;a
+                if(ca-q.front().a&gt;=q.front().b){    //b was empty
+                    temp.a=q.front().a+q.front().b;
+                    temp.b=0;
+                }
+                else{           //a was full
+                    temp.a=ca;
+                    temp.b=q.front().b-(ca-q.front().a);
+                }
+                temp.step=q.front().step+1;
+                temp.self=j;
+                if(walked[temp.a][temp.b]==0){
+                    rec[j][0]=q.front().self;
+                    rec[j][1]=5;
+                    j++;
+                    walked[temp.a][temp.b]=1;
+                    q.push(temp);
+                }
+                if(temp.a==tar||temp.b==tar){
+                    flag=1;
+                    ok=q.front().step+1;
+                    break;
+                }
             }
         }
-        else{
-            if(i%2==0){
-                printf(&quot;%05d %d -1\n&quot;,in[z].add,in[z].data);
-                z++;
-            }
-            else{
-                printf(&quot;%05d %d -1\n&quot;,in[f].add,in[f].data);
-                f--;
-            }
+        if(flag){
+            break;
         }
+        q.pop();
+    }
+    if(flag){
+        printf(&quot;%d\n&quot;,ok);
+        print(j-1);
+    }
+    else{
+        printf(&quot;impossible\n&quot;);
     }
     return 0;
 }
-</code></pre><p>首先我采用的这种方式会省略无效节点,输出时我采用两个变量z,f控制输出,z控制正向输出,f控制负向输出,这样巧妙的是输出下一节点地址时直接用另一个输出变量即可,因为那就是下一个节点,这样完美解决输出问题.</p>
-<h1 id="😤"><a href="#😤" class="headerlink" title="😤"></a>😤</h1>
+</code></pre>
         
     
 
@@ -578,21 +719,13 @@ int main(){
             <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
     <!-- Prev Nav -->
     
-        <a href="/2018/03/12/buluo/" id="post_nav-newer" class="prev-content">
-            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
-                <i class="material-icons">arrow_back</i>
-            </button>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            新篇
-        </a>
-    
 
     <!-- Section Spacer -->
     <div class="section-spacer"></div>
 
     <!-- Next Nav -->
     
-        <a href="/2018/03/02/vocation-done/" id="post_nav-older" class="next-content">
+        <a href="/2018/05/23/poj3009/" id="post_nav-older" class="next-content">
             舊篇
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
