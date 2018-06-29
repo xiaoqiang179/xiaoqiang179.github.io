@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-06-08T13:25:44.088Z</updated>
+  <updated>2018-06-29T08:34:12.169Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Emacs is Sexy——Emacs学习笔记1</title>
+    <link href="http://yoursite.com/2018/06/29/emacs-learning/"/>
+    <id>http://yoursite.com/2018/06/29/emacs-learning/</id>
+    <published>2018-06-29T08:17:48.000Z</published>
+    <updated>2018-06-29T08:34:12.169Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Based-on-emacs-tutorial-build-in&quot;&gt;&lt;a href=&quot;#Based-on-emacs-tutorial-build-in&quot; class=&quot;headerlink&quot; title=&quot;Based on emacs
+        
+      
+    
+    </summary>
+    
+      <category term="emacs" scheme="http://yoursite.com/categories/emacs/"/>
+    
+    
+      <category term="emacs" scheme="http://yoursite.com/tags/emacs/"/>
+    
+  </entry>
   
   <entry>
     <title>Pots_POJ_3414</title>
@@ -548,33 +574,6 @@ int main(){
     </summary>
     
       <category term="HDU" scheme="http://yoursite.com/categories/HDU/"/>
-    
-    
-      <category term="并查集" scheme="http://yoursite.com/tags/%E5%B9%B6%E6%9F%A5%E9%9B%86/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>L2-024-部落</title>
-    <link href="http://yoursite.com/2018/03/12/buluo/"/>
-    <id>http://yoursite.com/2018/03/12/buluo/</id>
-    <published>2018-03-12T12:28:44.000Z</published>
-    <updated>2018-03-14T01:46:52.697Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;典型并查集&quot;&gt;&lt;a href=&quot;#典型并查集&quot; class=&quot;headerlink&quot; title=&quot;典型并查集&quot;&gt;&lt;/a&gt;&lt;em&gt;典型并查集&lt;/em&gt;&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;#include &amp;lt;stdio.h&amp;gt;
-#include
-        
-      
-    
-    </summary>
-    
-      <category term="天梯赛" scheme="http://yoursite.com/categories/%E5%A4%A9%E6%A2%AF%E8%B5%9B/"/>
     
     
       <category term="并查集" scheme="http://yoursite.com/tags/%E5%B9%B6%E6%9F%A5%E9%9B%86/"/>
